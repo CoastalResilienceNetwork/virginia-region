@@ -1,0 +1,19 @@
+[
+    {
+        "agsSource": {
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
+            "folderTitle": "Coastal_Resilience_base_data",
+            "folders": [
+                {
+                    "name": "Virginia",
+                    "services": [
+                        { "name": "Infrastructure", "type":"dynamic" },
+                        { "name": "Coastal_Management", "type":"dynamic" },
+						{ "name": "Habitats", "type":"dynamic" },
+						{ "name": "Social_and_Economic", "type":"dynamic" }
+                    ]
+                }
+            ]
+        }
+    }
+]
