@@ -3,10 +3,6 @@
         {
             "repo": "multiSelect",
             "name": "flood_slr"
-        },
-	    {
-	    	"repo": "community_planning",
-            "name": "community_planning"
         }
     ]
 }
