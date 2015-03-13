@@ -38,8 +38,7 @@
     ],
     "pluginOrder": [
         "layer_selector",
-		"flood_slr",
-		"community_planning",
+		"flood_slr"
         "measure"
     ],
     "print": {
