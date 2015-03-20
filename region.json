@@ -38,7 +38,7 @@
     ],
     "pluginOrder": [
         "layer_selector",
-		"flood_slr"
+		"flood_slr",
         "measure"
     ],
     "print": {
