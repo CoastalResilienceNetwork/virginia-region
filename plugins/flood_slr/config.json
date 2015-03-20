@@ -7,10 +7,10 @@
 			"name": "NOAA Mean Higher High Water Inundation",
 			"extent": {"xmin":-8463173.693400,"ymin":4450714.948100,"xmax":-8376772.547600,"ymax":4583243.109900,"spatialReference":{"wkid":102100,"latestWkid":3857}},
 			"methods": "http://coast.noaa.gov/digitalcoast/tools/slr",
-			variables: [
+			"variables": [
 				{"name":"Choose SLR", "index":0, "values":[{"name":"Current","value":"0", "help": "Year 2010"},{"name":"1 ft", "value":"1"}, {"name":"2 ft", "value":"2"}, {"name":"3 ft", "value":"3"}, {"name":"4 ft", "value":"4"}, {"name":"5 ft", "value":"5"}, {"name":"6 ft", "value":"6"}]}
 				],
-			combos: {
+			"combos": {
 			
 				"0": [{"type":"tiled", "url": "http://maps1.coast.noaa.gov/ArcGIS/rest/services/dc_slr/slr_0ft/MapServer"}],
 				"1": [{"type":"tiled", "url": "http://maps1.coast.noaa.gov/ArcGIS/rest/services/dc_slr/slr_1ft/MapServer"}], 
@@ -27,10 +27,10 @@
 			"name": "NOAA Inundation Uncertainty",
 			"extent": {"xmin":-8463173.693400,"ymin":4450714.948100,"xmax":-8376772.547600,"ymax":4583243.109900,"spatialReference":{"wkid":102100,"latestWkid":3857}},
 			"methods": "http://coast.noaa.gov/digitalcoast/tools/slr",
-			variables: [
+			"variables": [
 				{"name":"Choose SLR", "index":0, "values":[{"name":"Current","value":"0", "help": "Year 2010"},{"name":"1 ft", "value":"1"}, {"name":"2 ft", "value":"2"}, {"name":"3 ft", "value":"3"}, {"name":"4 ft", "value":"4"}, {"name":"5 ft", "value":"5"}, {"name":"6 ft", "value":"6"}]}
 				],
-			combos: {
+			"combos": {
 			
 				"0": [{"type":"tiled", "url": "http://maps1.coast.noaa.gov/ArcGIS/rest/services/dc_slr/conf_0ft/MapServer"}],
 				"1": [{"type":"tiled", "url": "http://maps1.coast.noaa.gov/ArcGIS/rest/services/dc_slr/conf_1ft/MapServer"}], 
