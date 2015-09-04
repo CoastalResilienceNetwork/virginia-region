@@ -14,7 +14,7 @@
 	"methods": "http://www.tnc.org",
 	"delimiter": "_",
 	"variables": [
-		{"name":"Choose an SLR Scenario", "index":0, "values":[{"name":"Low", "value":"low"}, {"name":"High", "value":"high"}, {"name":"Highest", "value":"highest"}], "help": "<img src='plugins/future_habitat/images/SLR_simple.png' />"},
+		{"name":"Choose an SLR Scenario", "index":0, "values":[{"name":"Low", "value":"low"}, {"name":"High", "value":"high"}, {"name":"Highest", "value":"highest"}], "help": "<img src='plugins/future_habitat/images/SLR_simple_graphic.png' />"},
 		{"name":"Choose a Scenario Year", "index":1, "values":[ {"name":"2011","value":"2011"},{"name":"2025","value":"2025"},{"name":"2040","value":"2040"},{"name":"2065","value":"2065"},{"name":"2100","value":"2100"}]}
 		],
 	"change": true,
