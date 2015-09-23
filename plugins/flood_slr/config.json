@@ -13,7 +13,7 @@
 			"combos": {
 			
 				"Low|2025": [{"type":"dynamic","show":[4]}],
-				"LOW|2040": [{"type":"dynamic","show":[3]}], 
+				"Low|2040": [{"type":"dynamic","show":[3]}], 
 				"Low|2065": [{"type":"dynamic","show":[2]}],
 				"Low|2100": [{"type":"dynamic","show":[1]}],
 				
