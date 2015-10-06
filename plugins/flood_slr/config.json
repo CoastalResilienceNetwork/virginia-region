@@ -12,20 +12,20 @@
 				],
 			"combos": {
 			
-				"Low|2025": [{"type":"dynamic","show":[4]}],
-				"Low|2040": [{"type":"dynamic","show":[3]}], 
-				"Low|2065": [{"type":"dynamic","show":[2]}],
-				"Low|2100": [{"type":"dynamic","show":[1]}],
+				"Low|2025": [{"type":"dynamic","show":[3]}],
+				"Low|2040": [{"type":"dynamic","show":[2]}], 
+				"Low|2065": [{"type":"dynamic","show":[1]}],
+				"Low|2100": [{"type":"dynamic","show":[0]}],
 				
-				"High|2025": [{"type":"dynamic","show":[9]}],
-				"High|2040": [{"type":"dynamic","show":[8]}], 
-				"High|2065": [{"type":"dynamic","show":[7]}],
-				"High|2100": [{"type":"dynamic","show":[6]}],					
+				"High|2025": [{"type":"dynamic","show":[7]}],
+				"High|2040": [{"type":"dynamic","show":[6]}], 
+				"High|2065": [{"type":"dynamic","show":[5]}],
+				"High|2100": [{"type":"dynamic","show":[4]}],					
 
-				"Highest|2025": [{"type":"dynamic","show":[14]}],
-				"Highest|2040": [{"type":"dynamic","show":[13]}], 
-				"Highest|2065": [{"type":"dynamic","show":[12]}],
-				"Highest|2100": [{"type":"dynamic","show":[11]}]
+				"Highest|2025": [{"type":"dynamic","show":[11]}],
+				"Highest|2040": [{"type":"dynamic","show":[10]}], 
+				"Highest|2065": [{"type":"dynamic","show":[9]}],
+				"Highest|2100": [{"type":"dynamic","show":[8]}]
 
 			
 			},
