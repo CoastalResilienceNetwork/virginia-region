@@ -30,6 +30,35 @@
 			
 			},
 			"mainURL": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Virginia/Inundation/MapServer"
+		},
+		{
+			"name": "Storm Surge",
+			"extent": {"xmin":-8465603.278145544,"ymin":4449501.684258065,"xmax":-8374321.7741455445,"ymax":4584528.084258066,"spatialReference":{"wkid":102100,"latestWkid":3857}},
+			"controls": [
+				{"name":"Choose a Storm Type", "index":0, "values":[{"name":"Low Intensity","value":"Low", "help": "Low", "selected": true},{"name":"Moderate Intensity", "value":"Mod"}, {"name":"High Intensity", "value":"High"}, {"name":"Nor'Ida", "value":"Nor"}], "type": "slider"},
+				{"name":"Choose a Scenario Year", "index":0, "values":[{"name":"Current","value":"Current", "help": "Current Year", "selected": true},{"name":"2040", "value":"2040"}, {"name":"2065", "value":"2065"}], "type": "slider"}				
+				],
+			"combos": {
+			
+				"Low|Current": [{"type":"dynamic","show":[0]}],
+				"Low|2040": [{"type":"dynamic","show":[1]}], 
+				"Low|2065": [{"type":"dynamic","show":[2]}],
+
+				"Mod|Current": [{"type":"dynamic","show":[3]}],
+				"Mod|2040": [{"type":"dynamic","show":[4]}], 
+				"Mod|2065": [{"type":"dynamic","show":[5]}],
+				
+				"High|Current": [{"type":"dynamic","show":[6]}],
+				"High|2040": [{"type":"dynamic","show":[7]}], 
+				"High|2065": [{"type":"dynamic","show":[8]}],
+
+				"Nor|Current": [{"type":"dynamic","show":[9]}],
+				"Nor|2040": [{"type":"dynamic","show":[10]}], 
+				"Nor|2065": [{"type":"dynamic","show":[11]}]
+
+			
+			},
+			"mainURL": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Virginia/Storm_Surge/MapServer"
 		}
 	]
 }
