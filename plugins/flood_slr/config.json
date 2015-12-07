@@ -35,30 +35,61 @@
 			"name": "Storm Surge",
 			"extent": {"xmin":-8465603.278145544,"ymin":4449501.684258065,"xmax":-8374321.7741455445,"ymax":4584528.084258066,"spatialReference":{"wkid":102100,"latestWkid":3857}},
 			"controls": [
+				{"name":"Choose a Scenario Year", "index":0, "values":[{"name":"Current","value":"Current", "help": "Current Year", "selected": true},{"name":"2040", "value":"2040"}, {"name":"2065", "value":"2065"}], "type": "slider"},
+				
 				{"name":"Choose a Storm Type", "index":0, "values":[{"name":"Low Intensity","value":"Low", "help": "Low", "selected": true},{"name":"Moderate Intensity", "value":"Mod"}, {"name":"High Intensity", "value":"High"}, {"name":"Nor'Ida", "value":"Nor"}], "type": "slider"},
-				{"name":"Choose a Scenario Year", "index":0, "values":[{"name":"Current","value":"Current", "help": "Current Year", "selected": true},{"name":"2040", "value":"2040"}, {"name":"2065", "value":"2065"}], "type": "slider"}				
+				
+				{"name":"Depth or Difference:", "index":0, "values":[{"name":"Depth","value":"Depth", "selected": true},{"name":"Absolute Difference", "value":"aDiff"}, {"name":"Percent Difference", "value":"pDiff"}], "type": "radio", "dependent": "2040|2065"},
+				
+				{"name": "Additional Layers:", "group": "MS", "values": [{"name":"Show storm tracks", "value":"Tracks", "help": "Tracks Help", "selected": true},{"name":"Show tidal range", "value":"TRange", "help": "Tidal Range help", "selected": true}], "type": "checkbox"}				
 				],
 			"combos": {
-			
-				"Low|Current": [{"type":"dynamic","show":[0]}],
-				"Low|2040": [{"type":"dynamic","show":[1]}], 
-				"Low|2065": [{"type":"dynamic","show":[2]}],
-
-				"Mod|Current": [{"type":"dynamic","show":[3]}],
-				"Mod|2040": [{"type":"dynamic","show":[4]}], 
-				"Mod|2065": [{"type":"dynamic","show":[5]}],
+			    "TRange": [{"type":"dynamic","show":[0]}],
+				"Tracks": [{"type":"dynamic","show":[1,2,3,4]}],
 				
-				"High|Current": [{"type":"dynamic","show":[6]}],
-				"High|2040": [{"type":"dynamic","show":[7]}], 
-				"High|2065": [{"type":"dynamic","show":[8]}],
+				"Current|Low": [{"type":"dynamic","show":[5]}],
+				"2040|Low|Depth": [{"type":"dynamic","show":[6]}],
+				"2065|Low|Depth": [{"type":"dynamic","show":[7]}],
+				
+				"Current|Mod": [{"type":"dynamic","show":[8]}],
+				"2040|Mod|Depth": [{"type":"dynamic","show":[9]}],
+				"2065|Mod|Depth": [{"type":"dynamic","show":[10]}],
 
-				"Nor|Current": [{"type":"dynamic","show":[9]}],
-				"Nor|2040": [{"type":"dynamic","show":[10]}], 
-				"Nor|2065": [{"type":"dynamic","show":[11]}]
+				"Current|High": [{"type":"dynamic","show":[11]}],
+				"2040|High|Depth": [{"type":"dynamic","show":[12]}],
+				"2065|High|Depth": [{"type":"dynamic","show":[13]}],
+				
+				"Current|Nor": [{"type":"dynamic","show":[14]}],
+				"2040|Nor|Depth": [{"type":"dynamic","show":[15]}],
+				"2065|Nor|Depth": [{"type":"dynamic","show":[16]}],
+
+				"2040|Low|aDiff": [{"type":"dynamic","show":[21]}],
+				"2065|Low|aDiff": [{"type":"dynamic","show":[29]}],
+				
+				"2040|Mod|aDiff": [{"type":"dynamic","show":[22]}],
+				"2065|Mod|aDiff": [{"type":"dynamic","show":[30]}],
+
+				"2040|High|aDiff": [{"type":"dynamic","show":[23]}],
+				"2065|High|aDiff": [{"type":"dynamic","show":[31]}],
+				
+				"2040|Nor|aDiff": [{"type":"dynamic","show":[24]}],
+				"2065|Nor|aDiff": [{"type":"dynamic","show":[32]}],				
+
+				"2040|Low|pDiff": [{"type":"dynamic","show":[17]}],
+				"2065|Low|pDiff": [{"type":"dynamic","show":[25]}],
+				
+				"2040|Mod|pDiff": [{"type":"dynamic","show":[18]}],
+				"2065|Mod|pDiff": [{"type":"dynamic","show":[26]}],
+
+				"2040|High|pDiff": [{"type":"dynamic","show":[19]}],
+				"2065|High|pDiff": [{"type":"dynamic","show":[27]}],
+				
+				"2040|Nor|pDiff": [{"type":"dynamic","show":[20]}],
+				"2065|Nor|pDiff": [{"type":"dynamic","show":[28]}]
 
 			
 			},
-			"mainURL": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Virginia/Storm_Surge/MapServer"
+			"mainURL": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Virginia/Storm_Surge_Complete/MapServer"
 		}
 	]
 }
