@@ -11,7 +11,7 @@
 			"methods": {"title":"View Methodology","url":"methods/basic_inundation_method.docx"},
 			"extent": {"xmin":-8465603.278145544,"ymin":4449501.684258065,"xmax":-8374321.7741455445,"ymax":4584528.084258066,"spatialReference":{"wkid":102100,"latestWkid":3857}},
 			"controls": [
-				{"name":"Choose SLR", "help": "<img src='plugins/future_habitat/images/SLR_simple_graphic.png' />", "index":0, "values":[{"name":"Low","value":"Low", "help": "Low", "selected": true},{"name":"High", "value":"High"}, {"name":"Highest", "value":"Highest"}], "type": "slider"},
+				{"name":"Choose SLR", "help": "<img src='methods/SLR_simple_graphic.png' />", "index":0, "values":[{"name":"Low","value":"Low", "help": "Low", "selected": true},{"name":"High", "value":"High"}, {"name":"Highest", "value":"Highest"}], "type": "slider"},
 				{"name":"Choose a Scenario Year", "index":0, "values":[{"name":"2025","value":"2025", "help": "Year 2025", "selected": true},{"name":"2040", "value":"2040"}, {"name":"2065", "value":"2065"}, {"name":"2100", "value":"2100"}], "type": "slider"}				
 				],
 			"combos": {
