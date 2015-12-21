@@ -5,6 +5,7 @@
 	"pluginHeight": 600,
 	"infoGraphic": "FutureHabitat_c.jpg",
 	"legendName": "Habitat Type",
+	"regionLabeler": "Data Source: #",
 	"helpWidth": "550px",
     "pluginData": [
 {
