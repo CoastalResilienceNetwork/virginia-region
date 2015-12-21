@@ -5,6 +5,7 @@
 	"hideDisableds": false,
 	"helpWidth": "550px",
 	"regionLabeler": "Data Source: #",
+	"noZoom": true,
 	"regions": [
 		{
 			"name": "Basic Inundation",
