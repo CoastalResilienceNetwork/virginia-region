@@ -5,6 +5,7 @@
 	"pluginHeight": 600,
 	"infoGraphic": "FutureHabitat_c.jpg",
 	"legendName": "Habitat Type",
+	"helpWidth": "550px",
     "pluginData": [
 {
 	"name": "Virginia",
