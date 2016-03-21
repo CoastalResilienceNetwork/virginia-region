@@ -58,7 +58,7 @@
 						  [24, 0, 0, 0],
 						  [99, 229, 196, 148]
 						],
-	"labels":{"1": "Developed Dry Land", "2": "Undeveloped Dry Land", "3": "Flooded Developed Dry Land", "4": "Regularly Flooded Salt Marsh", "5": "Irregularly Flooded Salt Marsh", "6": "Transitional Salt Marsh", "7": "Freshwater Tidal Wetlands", "8": "Other Nontidal Wetlands", "9": "Beach or Inland Shore", "10": "Tidal Flat", "11": "Rocky Intertidal", "12": "Water", "99": "Barrier Islands Modeled Separately"}
+	"labels":{"1": "Developed Dry Land", "2": "Undeveloped Dry Land", "3": "Flooded Developed Dry Land", "4": "Regularly Flooded Salt Marsh", "5": "Irregularly Flooded Salt Marsh", "6": "Transitional Salt Marsh", "7": "Freshwater Tidal Wetlands", "8": "Other Nontidal Wetlands", "9": "Beach or Inland Shore", "10": "Tidal Flat", "11": "Oyster Reef", "12": "Water", "99": "Barrier Islands Modeled Separately"}
 }
 ]
 }]
