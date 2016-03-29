@@ -74,8 +74,7 @@
                                 {"id":31, "parentLayerId":-1 },
                                 {"id":32, "parentLayerId":-1 },
                                 {"id":33, "parentLayerId":-1 },
-                                {"id":34, "parentLayerId":-1 },
-                                {"id":35, "parentLayerId":-1 }
+                                {"id":34, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -85,11 +84,11 @@
                     "name": "",
                     "services": [
                         { "name": "Virginia", "type":"dynamic", "displayName":"Social and Economic", "description":"","showLayers": [
+                                {"id":36, "parentLayerId":-1 },
                                 {"id":37, "parentLayerId":-1 },
                                 {"id":38, "parentLayerId":-1 },
                                 {"id":39, "parentLayerId":-1 },
-                                {"id":40, "parentLayerId":-1 },
-                                {"id":41, "parentLayerId":-1 }
+                                {"id":40, "parentLayerId":-1 }
                             ]
                         }   
                     ]
