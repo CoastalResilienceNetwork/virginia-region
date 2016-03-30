@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Sanborn Map Company, Inc</origin>
+<pubdate>20111025</pubdate>
+<title>Accomack_DEM</title>
+<geoform>vector digital data</geoform>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Provide high density LiDAR elevation data map of Accomack County, VA. Provide Bare Earth DEM (vegetation removal) of Accomack County, VA.</abstract>
+<purpose>This LIDAR operation was designed to provide a high density set of masspoints within the defined areas. The data sets are suitable for the development of contours for use in hydraulic/hydrologic model development, and for assessing environmental impacts.Typical uses for the data set include: FEMA Flood Plain Map Modernization. DFIRM map updates. Watersheds and other hydro studies per FEMA specifications. County Mapping projects which include several uses, in addition to Flood mitigation assessment. Mapping projects that include accuracy verification, reporting and meta data.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>20100325</begdate>
+<enddate>20100330</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-76.060821</westbc>
+<eastbc>-75.228065</eastbc>
+<northbc>38.065720</northbc>
+<southbc>37.039972</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>VA</themekt>
+<themekey>DEM</themekey>
+<themekey>Digital elevation model</themekey>
+<themekey>Elevation</themekey>
+<themekey>Digital terrain model</themekey>
+<themekey>Surface Model</themekey>
+<themekey>Hydrographic</themekey>
+<themekey>Lidar</themekey>
+<themekey>LIDAR</themekey>
+<themekey>Hydrologic Modeling</themekey>
+<themekey>Hydrology</themekey>
+<themekey>Drainage Area</themekey>
+</theme>
+<place>
+<placekt>VA</placekt>
+<placekey>Accomack</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>Any conclusions drawn from analysis of this information are not the responsibility of Sanborn Map Company. Users should be aware that temporal changes may have occurred since this dataset was collected and some parts of this dataset may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Virginia Information Technologies Agency (VITA)</cntorg>
+<cntper>John A. Scrivani</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>11751 Meadowville Lane</address>
+<city>Chester</city>
+<state>Virginia</state>
+<postal>23836</postal>
+<country>United States</country>
+</cntaddr>
+<cntvoice>804.416.6207</cntvoice>
+<cnttdd>N/A</cnttdd>
+<cntfax>N/A</cntfax>
+<cntemail>john.scrivani@vita.virginia.gov</cntemail>
+<hours>8:00 AM - 5:00 PM</hours>
+</cntinfo>
+</ptcontac>
+<secinfo>
+<secsys>unknown</secsys>
+<secclass>Unclassified</secclass>
+<sechandl>unknown</sechandl>
+</secinfo>
+<native>Microsoft Windows Vista Version 6.1 (Build 7600) ; ESRI ArcCatalog 9.3.1.3500</native>
+</idinfo>
+<dataqual>
+<logic>None</logic>
+<complete>None</complete>
+<posacc>
+<horizpa>
+<horizpar>United States Geological Survey (USGS) LiDAR Specifications 15 cm RMSE</horizpar>
+</horizpa>
+<vertacc>
+<vertaccr>United States Geological Survey (USGS) LiDAR Specifications 5 cm RMSE</vertaccr>
+</vertacc>
+</posacc>
+<lineage>
+<procstep>
+<procdesc>USGS v13 hydro data (&gt; 2 acre waterbodies, &gt;100' wide rivers) was compiled using stereo intensity images derived from the collected Lidar Data. Due to large tidal fluctuations, breaklines captured along flight line swaths often show abrubt changes between land and water interfaces. The Lidar Bare Earth point data and compiled hydro data was ingested into working ESRI geodatabases.</procdesc>
+<procdate>20110720</procdate>
+</procstep>
+<procstep>
+<procdesc>Post Processing, Editing and Quality Assurance of data. Basic Topology checks on Hydro data is undertaken and issues corrected. A Terrain was created from the Hydro data. Monotonicity errors, Terrain errors, and Hydro errors were fixed and then re-checked for correctness. A secondary Terrain was produced from the Lidar points AND the final hydro breakline data. Raster DEM files were created from the Terrain. Hillshades were produced from the DEM as a final QC process.  Any issues seen in the Hillshades are rectified and any subsequent data reproduced. Upon acceptance of the QC process, the data was readied for Delivery. Metadata files are produced.</procdesc>
+<procdate>20110720</procdate>
+</procstep>
+<procstep>
+<procdesc>Ready data for Delivery. Delivery includes an ESRI GeoDatabase containing Hydro, Masspoint, Terrain information, and a Raster DEM surface.</procdesc>
+<procdate>20110720</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Lambert Conformal Conic</mapprojn>
+<lambertc>
+<stdparll>36.766667</stdparll>
+<stdparll>37.966667</stdparll>
+<longcm>-78.5000000</longcm>
+<latprjo>36.333333</latprjo>
+<feast>11482916.666667</feast>
+<fnorth>3280833.333333</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.500000</absres>
+<ordres>0.500000</ordres>
+</coordrep>
+<plandu>International_feet</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>D_North_American_1983_HARN</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altdatum>North American Vertical Datum of 1988</altdatum>
+<altres>1</altres>
+<altunits>feet</altunits>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Virginia Information Technologies Agency (VITA)</cntorg>
+<cntper>John A. Scrivani</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>11751 Meadowville Lane</address>
+<city>Chester</city>
+<state>Virginia</state>
+<postal>23836</postal>
+<country>United States</country>
+</cntaddr>
+<cntvoice>804.416.6207</cntvoice>
+<cnttdd>N/A</cnttdd>
+<cntfax>N/A</cntfax>
+<cntemail>john.scrivani@vita.virginia.gov</cntemail>
+<hours>8:00 AM - 5:00 PM</hours>
+</cntinfo>
+</distrib>
+<resdesc>Data are organized by tile and are available through several distribution methods.</resdesc>
+<distliab>ES Virginia does not warrant these data for any particular use and is not responsible for any damages resulting from the use of the data.  Contact ES Virginia for more details.  Acknowledgement of ES Virginia appreciated in products derived and used from the data. The originator asks to be credited in derived products.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>LAS</formname>
+<formvern>1.2</formvern>
+<transize>180000</transize>
+</digtinfo>
+<digtopt>
+<offoptn>
+<offmedia>5 - 1/2 inch hard drive</offmedia>
+<recfmt>LAS</recfmt>
+</offoptn>
+</digtopt>
+</digform>
+<fees>unknown</fees>
+<turnarnd>unknown</turnarnd>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20110720</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Sanborn Map Company, Inc.</cntorg>
+<cntper>Shawn Benham</cntper>
+</cntorgp>
+<cntpos>Project Manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>1935 Jamboree Dr. Suite 100</address>
+<city>Colorado Springs</city>
+<state>Colorado</state>
+<postal>80920</postal>
+<country>United States</country>
+</cntaddr>
+<cntvoice>719.502.1296</cntvoice>
+<cnttdd>N/A</cnttdd>
+<cntfax>719.528.5093</cntfax>
+<cntemail>sbenham@sanborn.com</cntemail>
+<hours>8:00 AM - 5:00 PM MST</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>
