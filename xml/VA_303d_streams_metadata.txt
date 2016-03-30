@@ -1,0 +1,1222 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Virginia Department of Environmental Quality
+      Publication_Date: 20140127
+      Title: va_12ir_aus_all
+      Edition: final
+      Geospatial_Data_Presentation_Form: vector digital data
+      Online_Linkage: http://www.deq.virginia.gov/Portals/0/DEQ/Water/WaterQualityAssessments/GISData/ir2012gis.zip
+  Description:
+    Abstract: 2012 305(b) assessed and 303(d) impaired hydrology features
+    Purpose: Show all waters identified in the 2012 Virginia 305(b)/303(d) Water Quality Assessment Integrated Report.
+    Supplemental_Information: Assessment determinations noted in this dataset are based on guidance from Virginia's 2012 Assessment Guidance Memo 11-2007 available at http://www.deq.virginia.gov/Portals/0/DEQ/Water/Guidance/112007.pdf.  This dataset has two supplemental GIS data files: the regionally significant VPDES facilities shapefile (va_12ir_vpdes_facilities.shp) and the monitoring stations shapefile (va_12ir_wqm_stations.shp).
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20050101
+        Ending_Date: 20101231
+    Currentness_Reference: Time period of content
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -83.675418
+      East_Bounding_Coordinate: -75.175907
+      North_Bounding_Coordinate: 39.465917
+      South_Bounding_Coordinate: 36.470396
+  Keywords:
+    Theme:
+      Theme_Keyword: rivers
+      Theme_Keyword: lakes
+      Theme_Keyword: impaired waters
+      Theme_Keyword: 305b
+      Theme_Keyword: estuaries
+      Theme_Keyword: assessed waters
+      Theme_Keyword: streams
+      Theme_Keyword: reservoirs
+      Theme_Keyword: Chesapeake Bay
+      Theme_Keyword: assessment units
+      Theme_Keyword: 303d
+    Place:
+      Place_Keyword_Thesaurus: none
+      Place_Keyword: Virginia
+  Access_Constraints: None
+  Use_Constraints: Line work and attributes should not be altered except by the developer (VA DEQ).  This dataset constitutes the EPA approved digital version of the assessment hydrology for Virginia.  Crediting the Virginia Department of Environmental Quality as data source is requested.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Cleo L. Baker
+        Contact_Organization: Virginia Department of Environmental Quality
+      Contact_Position: Environmental/GIS Data Specialist Senior
+      Contact_Address:
+        Address_Type: mailing address
+        Address: P.O. Box 1105
+        City: Richmond
+        State_or_Province: Virginia
+        Postal_Code: 23218-1105
+        Country: USA
+      Contact_Voice_Telephone: 804-698-4191
+      Contact_Facsimile_Telephone: 804-698-4032
+      Contact_Electronic_Mail_Address: Cleo.Baker@deq.virginia.gov
+      Hours_of_Service: 0700-1730 M-Th (EDT)
+      Contact_Instructions: Contact via email is preferred.
+  Data_Set_Credit: This dataset was developed and updated by the Virginia Department of Environmental Quality (VA DEQ) from the United States Geological Survey (USGS) National Hydrography Dataset (NHD) circa 2000. The dataset is maintained and updated by VA DEQ each assessment cycle (biennially) from the current NHD product, aerial photography and by freehand digitizing where necessary.
+  Native_Data_Set_Environment: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.0.3035
+Data_Quality_Information:
+  Logical_Consistency_Report: All arcs and polygons are used to define surface hydrologic features in the state or that VA DEQ is responsible for monitoring and assessment.
+  Completeness_Report: At the close of each assessment cycle the dataset is submitted to US EPA for approval whereby it is considered Virginia's completed geospatial data product.
+  Lineage:
+    Process_Step:
+      Process_Description: Dataset combined from regional assessment unit geodatabases into one statewide layer using Load Objects Command tool in ArcMap.
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: Virginia Department of Environmental Quality
+            Contact_Person: Kristy C. Woodall
+          Contact_Position: Water Quality GIS Analyst
+    Process_Step:
+      Process_Description: Single-part features dissolved to create multi-part features using ID305B attribute via the Dissolve Utility in ArcToolbox.
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: Virginia Department of Environmental Quality
+            Contact_Person: Kristy C. Woodall
+          Contact_Position: Water Quality GIS Analyst
+    Process_Step:
+      Process_Description: Topology created and rules set to remove common geometry errors.
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: Virginia Department of Environmental Quality
+            Contact_Person: Kristy C. Woodall
+          Contact_Position: Water Quality GIS Analyst
+    Process_Step:
+      Process_Description: Calculate Geometry function used to calculate length in miles of riverine features, and area in acres for lakes/reservoirs and square miles for estuarine features in Lambert Conformal Conic NAD 1983 projected coordinate system.
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: Virginia Department of Environmental Quality
+            Contact_Person: Kristy C. Woodall
+          Contact_Position: Water Quality GIS Analyst
+    Process_Step:
+      Process_Description: Assessment attributes (i.e. Water Name, Location, Comments, Cause and Source where applicable, Assessment Category, and Designated Use status) for all assessment units joined to each feature based on data queried from the Final 2012 Assessment Database.
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: Virginia Department of Environmental Quality
+            Contact_Person: Cleo L. Baker
+          Contact_Position: Environmental/GIS Data Specialist Senior
+    Process_Step:
+      Process_Description: Metadata .txt file revised and imported using Metadata Import utility in ArcCatalog.
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: Virginia Department of Environmental Quality
+            Contact_Person: Cleo L. Baker
+          Contact_Position: Environmental/GIS Data Specialist Senior
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 5516
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 1318
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 245
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: Lambert Conformal Conic
+        Lambert_Conformal_Conic:
+          Standard_Parallel: 37.000000
+          Standard_Parallel: 39.500000
+          Longitude_of_Central_Meridian: -79.500000
+          Latitude_of_Projection_Origin: 36.000000
+          False_Easting: 0.000000
+          False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.001024
+          Ordinate_Resolution: 0.001024
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: va_2012_aus_estuarine
+      Entity_Type_Definition: estuarine feature data layer which includes tidal/saline waters, the Chesapeake Bay and Virginia's portion of the Atlantic Ocean
+      Entity_Type_Definition_Source: ESRI
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry type
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Polygon
+          Enumerated_Domain_Value_Definition: a closed shape of connected coordinate pairs; some features may be multipart polygons
+          Enumerated_Domain_Value_Definition_Source: ESRI
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: ID305B
+      Attribute_Definition: Unique Virginia assessment unit ID
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Alpha-numeric assessment unit designation for each hydrologic feature
+    Attribute:
+      Attribute_Label: Sq_miles
+      Attribute_Definition: Area of the segment calculated in square miles
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.001
+          Range_Domain_Maximum: 374.329
+    Attribute:
+      Attribute_Label: CYCLE
+      Attribute_Definition: Assessment cycle
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2012
+          Enumerated_Domain_Value_Definition: Assessment reporting cycle within the time period of 1/1/2005 through 12/31/2010
+          Enumerated_Domain_Value_Definition_Source: US EPA, VA DEQ
+    Attribute:
+      Attribute_Label: STATE
+      Attribute_Definition: Two-character postal abbreviation of the state where the water features are located
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VA
+          Enumerated_Domain_Value_Definition: Virginia
+          Enumerated_Domain_Value_Definition_Source: USPS
+    Attribute:
+      Attribute_Label: WATER_NAME
+      Attribute_Definition: Name of the water body
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name of the assessment unit
+    Attribute:
+      Attribute_Label: LOCATION
+      Attribute_Definition: Location of the water body
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Location description of the assessment unit
+    Attribute:
+      Attribute_Label: AU_COMMENTS
+      Attribute_Definition: Assessment Unit Comments
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: General assessment comments in free-text form concerning the assessment unit
+    Attribute:
+      Attribute_Label: IMP_CAUSE
+      Attribute_Definition: Cause(s) of impairment
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: All causes of impairment that exceeded their Water Quality Standard criteria; otherwise NA to denote assessment units not impaired (i.e. Category 1* or 2*) or not assessed (i.e. Category 3*)
+    Attribute:
+      Attribute_Label: SOURCE
+      Attribute_Definition: Source(s) of impairment
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: All sources either confirmed or suspected of the given cause(s); otherwise NA to denote assessment units not impaired (i.e. Category 1* or 2*) or not assessed (i.e. Category 3*)
+    Attribute:
+      Attribute_Label: CATEGORY
+      Attribute_Definition: Virginia assessment unit Category ID representing the overall assessment characterization of the water body per Assessment Guidance criteria stated in Guidance Memo 11-2007.
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2A
+          Enumerated_Domain_Value_Definition: The water is supporting all designated uses for which it is monitored.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2B
+          Enumerated_Domain_Value_Definition: The water is of concern to the state but no Water Quality Standard exists for a specific pollutant, or the water exceeds a state screening value or toxicity test.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2C
+          Enumerated_Domain_Value_Definition: The water is now attaining the use(s) for which it was originally 303(d) listed and the TMDL is EPA approved but other applicable use(s) were not monitored and assessed.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3A
+          Enumerated_Domain_Value_Definition: There is no data available within the data window of the current assessment to determine if any designated use is attained and the water was not previously listed as impaired.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3B
+          Enumerated_Domain_Value_Definition: Some data exists but are insufficient to determine support of any designated use. Such waters will be prioritized for follow up monitoring as needed.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4A
+          Enumerated_Domain_Value_Definition: The water is impaired or threatened for one or more designated uses but does not require a TMDL because the TMDL for specific pollutant(s) is complete and US EPA approved.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5A
+          Enumerated_Domain_Value_Definition: The Water Quality Standard is not attained. The water is impaired or threatened for one or more designated uses by a pollutant(s) and requires a TMDL (303(d) list).
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5B
+          Enumerated_Domain_Value_Definition: The Water Quality Standard for the shellfishing use (exclusively) is not attained. One or more pollutants causing impairment require TMDL development.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5C
+          Enumerated_Domain_Value_Definition: The Water Quality Standard is not attained due to suspected natural conditions and may require a TMDL.  Water Quality Standards for these waters may be reevaluated due to the presence of suspected natural conditions.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5D
+          Enumerated_Domain_Value_Definition: The Water Quality Standard is not attained where TMDLs for a pollutant(s) have been developed but one or more pollutants are still causing impairment requiring additional TMDL development.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5F
+          Enumerated_Domain_Value_Definition: The Water Quality Standard is attained for a pollutant(s) with a TMDL and 303(d) delisting is approved but the water remains impaired for additional pollutant(s) requiring TMDL development.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+    Attribute:
+      Attribute_Label: AQUA_LIFE
+      Attribute_Definition: Aquatic Life Designated Use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the aquatic life designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Insufficient Information
+          Enumerated_Domain_Value_Definition: There is insufficient information to determine assessment status for the aquatic life designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the aquatic life designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the aquatic life designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: DEEP_CHANN
+      Attribute_Definition: Deep-Channel Seasonal Refuge (Aquatic Life) Sub-use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the deep channel seasonal refuge sub-use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Applicable
+          Enumerated_Domain_Value_Definition: The deep channel seasonal refuge sub-use is not applicable to this assessment unit.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the deep channel seasonal refuge sub-use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: DEEP_WATER
+      Attribute_Definition: Deep-Water Aquatic Life Sub-use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the deep water aquatic life sub-use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Insufficient Information
+          Enumerated_Domain_Value_Definition: There is insufficient information to determine assessment status for the deep water aquatic life sub-use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Applicable
+          Enumerated_Domain_Value_Definition: The deep water aquatic life sub-use is not applicable to this assessment unit.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the deep water aquatic life sub-use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: FISH_CONSU
+      Attribute_Definition: Fish Consumption Designated Use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the fish consumption designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the fish consumption designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the fish consumption designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: MIGRATORY
+      Attribute_Definition: Migratory Fish Spawning and Nursery (Aquatic Life) Sub-use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Insufficient Information
+          Enumerated_Domain_Value_Definition: There is insufficient information to determine assessment status for the migratory fish spawning and nursery sub-use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Applicable
+          Enumerated_Domain_Value_Definition: The migratory fish spawning and nursery sub-use is not applicable to this assessment unit.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the migratory fish spawning and nursery sub-use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: OPEN_WATER
+      Attribute_Definition: Open-Water Aquatic Life Sub-use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the open water aquatic life sub-use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Insufficient Information
+          Enumerated_Domain_Value_Definition: There is insufficient information to determine assessment status for the open water aquatic life sub-use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Applicable
+          Enumerated_Domain_Value_Definition: The open water aquatic life sub-use is not applicable to this assessment unit.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the open water aquatic life sub-use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: PWS
+      Attribute_Definition: Public Water Supply Designated Use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the public water supply designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Applicable
+          Enumerated_Domain_Value_Definition: The public water supply designated use is not applicable to this assessment unit.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the public water supply designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: RECREATION
+      Attribute_Definition: Recreation (swimming) Designated Use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the recreation designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Insufficient Information
+          Enumerated_Domain_Value_Definition: There is insufficient information to determine assessment status for the recreation designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the recreation designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the recreation designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: SW_SAV
+      Attribute_Definition: Shallow-Water Submerged Aquatic Vegetation (Aquatic Life) Sub-use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the shallow water submerged aquatic vegetation sub-use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Insufficient Information
+          Enumerated_Domain_Value_Definition: There is insufficient information to determine assessment status for the shallow water submerged aquatic vegetation sub-use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Applicable
+          Enumerated_Domain_Value_Definition: The shallow water submerged aquatic vegetation sub-use is not applicable to this assessment unit.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the shallow water submerged aquatic vegetation sub-use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: SHELLFISH
+      Attribute_Definition: Shellfishing Designated Use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the shellfishing designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Insufficient Information
+          Enumerated_Domain_Value_Definition: There is insufficient information to determine assessment status for the shellfishing designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Applicable
+          Enumerated_Domain_Value_Definition: The shellfishing designated use is not applicable to this assessment unit.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the shellfishing designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the shellfishing designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: WILDLIFE
+      Attribute_Definition: Wildlife Designated Use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the wildlife designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Insufficient Information
+          Enumerated_Domain_Value_Definition: There is insufficient information to determine assessment status for the wildlife designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the wildlife designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the wildlife designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: Shape_Length
+      Attribute_Definition: Length of feature in internal units.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape_Area
+      Attribute_Definition: Area of feature in internal units squared.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: va_2012_aus_reservoir
+      Entity_Type_Definition: lakes and reservoirs feature data layer
+      Entity_Type_Definition_Source: ESRI
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry type
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Polygon
+          Enumerated_Domain_Value_Definition: a closed shape of connected coordinate pairs; some features may be multipart polygons
+          Enumerated_Domain_Value_Definition_Source: ESRI
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: ID305B
+      Attribute_Definition: Unique Virginia assessment unit ID
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Alpha-numeric assessment unit designation for each hydrologic feature
+    Attribute:
+      Attribute_Label: Acres
+      Attribute_Definition: Area of the segment calculated in acres
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.122
+          Range_Domain_Maximum: 30400.718
+    Attribute:
+      Attribute_Label: CYCLE
+      Attribute_Definition: Assessment cycle
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2012
+          Enumerated_Domain_Value_Definition: Assessment reporting cycle within the time period of 1/1/2005 through 12/31/2010
+          Enumerated_Domain_Value_Definition_Source: US EPA, VA DEQ
+    Attribute:
+      Attribute_Label: STATE
+      Attribute_Definition: Two-character postal abbreviation of the state where the water features are located
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VA
+          Enumerated_Domain_Value_Definition: Virginia
+          Enumerated_Domain_Value_Definition_Source: USPS
+    Attribute:
+      Attribute_Label: WATER_NAME
+      Attribute_Definition: Name of the water body
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name of the assessment unit
+    Attribute:
+      Attribute_Label: LOCATION
+      Attribute_Definition: Location of the water body
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Location description of the assessment unit
+    Attribute:
+      Attribute_Label: TROPHIC_STATUS
+      Attribute_Definition: Carlson's Trophic State Index of lakes or reservoirs
+      Attribute_Definition_Source: R.E. Carlson, US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: blank or null
+          Enumerated_Domain_Value_Definition: No TSI was calculated or TSI is not applicable
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: E
+          Enumerated_Domain_Value_Definition: Eutrophic
+          Enumerated_Domain_Value_Definition_Source: R.E. Carlson, US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: M
+          Enumerated_Domain_Value_Definition: Mesotrophic
+          Enumerated_Domain_Value_Definition_Source: R.E. Carlson, US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O
+          Enumerated_Domain_Value_Definition: Oligotrophic
+          Enumerated_Domain_Value_Definition_Source: R.E. Carlson, US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: U
+          Enumerated_Domain_Value_Definition: Unknown
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+    Attribute:
+      Attribute_Label: PUBLIC_LAKE
+      Attribute_Definition: Status of lakes or reservoirs as a publicly owned water body
+      Attribute_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: blank or null
+          Enumerated_Domain_Value_Definition: Not publicly owned or Unknown
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Y
+          Enumerated_Domain_Value_Definition: Yes
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+    Attribute:
+      Attribute_Label: AU_COMMENTS
+      Attribute_Definition: Assessment Unit Comments
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: General assessment comments in free-text form concerning the assessment unit
+    Attribute:
+      Attribute_Label: IMP_CAUSE
+      Attribute_Definition: Cause(s) of impairment
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: All causes of impairment that exceeded their Water Quality Standard criteria; otherwise NA to denote assessment units not impaired (i.e. Category 1* or 2*) or not assessed (i.e. Category 3*)
+    Attribute:
+      Attribute_Label: SOURCE
+      Attribute_Definition: Source(s) of impairment
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: All sources either confirmed or suspected of the given cause(s); otherwise NA to denote assessment units not impaired (i.e. Category 1* or 2*) or not assessed (i.e. Category 3*)
+    Attribute:
+      Attribute_Label: CATEGORY
+      Attribute_Definition: Virginia assessment unit Category ID representing the overall assessment characterization of the water body per Assessment Guidance criteria stated in Guidance Memo 11-2007.
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: The water is attaining all associated designated uses and no designated use is threatened.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2A
+          Enumerated_Domain_Value_Definition: The water is supporting all designated uses for which it is monitored.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2B
+          Enumerated_Domain_Value_Definition: The water is of concern to the state but no Water Quality Standard exists for a specific pollutant, or the water exceeds a state screening value or toxicity test.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3A
+          Enumerated_Domain_Value_Definition: There is no data available within the data window of the current assessment to determine if any designated use is attained and the water was not previously listed as impaired.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3B
+          Enumerated_Domain_Value_Definition: Some data exists but are insufficient to determine support of any designated use. Such waters will be prioritized for follow up monitoring as needed.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3C
+          Enumerated_Domain_Value_Definition: Data collected by citizen monitoring or other organization indicating water quality problems may exist but the methodology and/or data quality has not been approved for a determination of support of designated use(s). These waters are considered as having insufficient data with observed effects. Such waters will be prioritized by DEQ for follow up monitoring.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4A
+          Enumerated_Domain_Value_Definition: The water is impaired or threatened for one or more designated uses but does not require a TMDL because the TMDL for specific pollutant(s) is complete and US EPA approved.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4B
+          Enumerated_Domain_Value_Definition: The water is impaired or threatened for one or more designated uses but does not require the development of a TMDL because other pollution control requirements (such as VPDES limits under a compliance schedule) are reasonably expected to result in attainment of the Water Quality Standard by the next reporting period or permit cycle.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4C
+          Enumerated_Domain_Value_Definition: The water is impaired or threatened for one or more designated uses but does not require a TMDL because the impairment is not caused by a pollutant and/or is determined to be caused by natural conditions.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5A
+          Enumerated_Domain_Value_Definition: The Water Quality Standard is not attained. The water is impaired or threatened for one or more designated uses by a pollutant(s) and requires a TMDL (303(d) list).
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5C
+          Enumerated_Domain_Value_Definition: The Water Quality Standard is not attained due to suspected natural conditions and may require a TMDL.  Water Quality Standards for these waters may be reevaluated due to the presence of suspected natural conditions.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5D
+          Enumerated_Domain_Value_Definition: The Water Quality Standard is not attained where TMDLs for a pollutant(s) have been developed but one or more pollutants are still causing impairment requiring additional TMDL development.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+    Attribute:
+      Attribute_Label: AQUA_LIFE
+      Attribute_Definition: Aquatic Life Designated Use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the aquatic life designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Insufficient Information
+          Enumerated_Domain_Value_Definition: There is insufficient information to determine assessment status for the aquatic life designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the aquatic life designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the aquatic life designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: FISH_CONSU
+      Attribute_Definition: Fish Consumption Designated Use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the fish consumption designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Insufficient Information
+          Enumerated_Domain_Value_Definition: There is insufficient information to determine assessment status for the fish consumption designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the fish consumption designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the fish consumption designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: PWS
+      Attribute_Definition: Public Water Supply Designated Use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the public water supply designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Applicable
+          Enumerated_Domain_Value_Definition: The public water supply designated use is not applicable to this assessment unit.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the public water supply designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: RECREATION
+      Attribute_Definition: Recreation (swimming) Designated Use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the recreation designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Insufficient Information
+          Enumerated_Domain_Value_Definition: There is insufficient information to determine assessment status for the recreation designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the recreation designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the recreation designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: WILDLIFE
+      Attribute_Definition: Wildlife Designated Use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the wildlife designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the wildlife designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the wildlife designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: Shape_Length
+      Attribute_Definition: Length of feature in internal units.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape_Area
+      Attribute_Definition: Area of feature in internal units squared.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: va_2012_aus_riverine
+      Entity_Type_Definition: free-flowing rivers and streams feature data layer
+      Entity_Type_Definition_Source: ESRI
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry type
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Line
+          Enumerated_Domain_Value_Definition: a shape composed of one-dimensional coordinate pairs creating a path or series of paths; some features may be multipart lines
+          Enumerated_Domain_Value_Definition_Source: ESRI
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: ID305B
+      Attribute_Definition: Unique Virginia assessment unit ID
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Alpha-numeric assessment unit designation for each hydrologic feature
+    Attribute:
+      Attribute_Label: Miles
+      Attribute_Definition: Length of the segment calculated in miles
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.002
+          Range_Domain_Maximum: 387.951
+    Attribute:
+      Attribute_Label: CYCLE
+      Attribute_Definition: Assessment cycle
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2012
+          Enumerated_Domain_Value_Definition: Assessment reporting cycle within the time period of 1/1/2005 through 12/31/2010
+          Enumerated_Domain_Value_Definition_Source: US EPA, VA DEQ
+    Attribute:
+      Attribute_Label: STATE
+      Attribute_Definition: Two-character postal abbreviation of the state where the water features are located
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VA
+          Enumerated_Domain_Value_Definition: Virginia
+          Enumerated_Domain_Value_Definition_Source: USPS
+    Attribute:
+      Attribute_Label: WATER_NAME
+      Attribute_Definition: Name of the water body
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name of the assessment unit
+    Attribute:
+      Attribute_Label: LOCATION
+      Attribute_Definition: Location of the water body
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Location description of the assessment unit
+    Attribute:
+      Attribute_Label: AU_COMMENTS
+      Attribute_Definition: Assessment Unit Comments
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: General assessment comments in free-text form concerning the assessment unit
+    Attribute:
+      Attribute_Label: IMP_CAUSE
+      Attribute_Definition: Cause(s) of impairment
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: All causes of impairment that exceeded their Water Quality Standard criteria; otherwise NA to denote assessment units not impaired (i.e. Category 1* or 2*) or not assessed (i.e. Category 3*)
+    Attribute:
+      Attribute_Label: SOURCE
+      Attribute_Definition: Source(s) of impairment
+      Attribute_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: All sources either confirmed or suspected of the given cause(s); otherwise NA to denote assessment units not impaired (i.e. Category 1* or 2*) or not assessed (i.e. Category 3*)
+    Attribute:
+      Attribute_Label: CATEGORY
+      Attribute_Definition: Virginia assessment unit Category ID representing the overall assessment characterization of the water body per Assessment Guidance criteria stated in Guidance Memo 11-2007.
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: The water is attaining all associated designated uses and no designated use is threatened.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1A
+          Enumerated_Domain_Value_Definition: The water is attaining all designated uses and a TMDL has been developed for one or more uses.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2A
+          Enumerated_Domain_Value_Definition: The water is supporting all designated uses for which it is monitored.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2B
+          Enumerated_Domain_Value_Definition: The water is of concern to the state but no Water Quality Standard exists for a specific pollutant, or the water exceeds a state screening value or toxicity test.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2C
+          Enumerated_Domain_Value_Definition: The water is now attaining the use(s) for which it was originally 303(d) listed and the TMDL is EPA approved but other applicable uses(s) were not monitored and assessed.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3A
+          Enumerated_Domain_Value_Definition: There is no data available within the data window of the current assessment to determine if any designated use is attained and the water was not previously listed as impaired.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3B
+          Enumerated_Domain_Value_Definition: Some data exists but are insufficient to determine support of any designated use. Such waters will be prioritized for follow up monitoring as needed.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3C
+          Enumerated_Domain_Value_Definition: Data collected by citizen monitoring or other organization indicating water quality problems may exist but the methodology and/or data quality has not been approved for a determination of support of designated use(s). These waters are considered as having insufficient data with observed effects. Such waters will be prioritized by DEQ for follow up monitoring.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3D
+          Enumerated_Domain_Value_Definition: Data collected by citizen monitoring or other organization indicating designated use(s) are being attained but the methodology and/or data quality has not been approved for such a determination.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4A
+          Enumerated_Domain_Value_Definition: The water is impaired or threatened for one or more designated uses but does not require a TMDL because the TMDL for specific pollutant(s) is complete and US EPA approved.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4B
+          Enumerated_Domain_Value_Definition: The water is impaired or threatened for one or more designated uses but does not require the development of a TMDL because other pollution control requirements (such as VPDES limits under a compliance schedule) are reasonably expected to result in attainment of the Water Quality Standard by the next reporting period or permit cycle.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4C
+          Enumerated_Domain_Value_Definition: The water is impaired or threatened for one or more designated uses but does not require a TMDL because the impairment is not caused by a pollutant and/or is determined to be caused by natural conditions.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5A
+          Enumerated_Domain_Value_Definition: The Water Quality Standard is not attained. The water is impaired or threatened for one or more designated uses by a pollutant(s) and requires a TMDL (303(d) list).
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5C
+          Enumerated_Domain_Value_Definition: The Water Quality Standard is not attained due to suspected natural conditions and may require a TMDL.  Water Quality Standards for these waters may be reevaluated due to the presence of suspected natural conditions.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5D
+          Enumerated_Domain_Value_Definition: The Water Quality Standard is not attained where TMDLs for a pollutant(s) have been developed but one or more pollutants are still causing impairment requiring additional TMDL development.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5F
+          Enumerated_Domain_Value_Definition: The Water Quality Standard is attained for a pollutant(s) with a TMDL and 303(d) delisting is approved but the water remains impaired for additional pollutant(s) requiring TMDL development.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+    Attribute:
+      Attribute_Label: AQUA_LIFE
+      Attribute_Definition: Aquatic Life Designated Use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the aquatic life designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Insufficient Information
+          Enumerated_Domain_Value_Definition: There is insufficient information to determine assessment status for the aquatic life designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the aquatic life designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the aquatic life designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: FISH_CONSU
+      Attribute_Definition: Fish Consumption Designated Use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the fish consumption designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Insufficient Information
+          Enumerated_Domain_Value_Definition: There is insufficient information to determine assessment status for the fish consumption designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the fish consumption designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the fish consumption designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: PWS
+      Attribute_Definition: Public Water Supply Designated Use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the public water supply designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Insufficient Information
+          Enumerated_Domain_Value_Definition: There is insufficient information to determine assessment status for the public water supply designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Applicable
+          Enumerated_Domain_Value_Definition: The public water supply designated use is not applicable to this assessment unit.
+          Enumerated_Domain_Value_Definition_Source: VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the public water supply designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the public water supply designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: RECREATION
+      Attribute_Definition: Recreation (swimming) Designated Use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the recreation designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Insufficient Information
+          Enumerated_Domain_Value_Definition: There is insufficient information to determine assessment status for the recreation designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the recreation designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the recreation designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: WILDLIFE
+      Attribute_Definition: Wildlife Designated Use
+      Attribute_Definition_Source: US EPA, VA DEQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fully Supporting
+          Enumerated_Domain_Value_Definition: The water is fully supporting the criteria set for the wildlife designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Insufficient Information
+          Enumerated_Domain_Value_Definition: There is insufficient information to determine assessment status for the wildlife designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Assessed
+          Enumerated_Domain_Value_Definition: The water has not been assessed to determine assessment status of the wildlife designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Supporting
+          Enumerated_Domain_Value_Definition: The water is not supporting the criteria set for the wildlife designated use.
+          Enumerated_Domain_Value_Definition_Source: US EPA
+    Attribute:
+      Attribute_Label: Shape_Length
+      Attribute_Definition: Length of feature in internal units.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Cleo L. Baker
+        Contact_Organization: Virginia Department of Environmental Quality
+      Contact_Position: Environmental/GIS Data Specialist Senior
+      Contact_Address:
+        Address_Type: mailing address
+        Address: P.O. Box 1105
+        City: Richmond
+        State_or_Province: Virginia
+        Postal_Code: 23218-1105
+        Country: USA
+      Contact_Voice_Telephone: 804-698-4191
+      Contact_Facsimile_Telephone: 804-698-4032
+      Contact_Electronic_Mail_Address: Cleo.Baker@deq.virginia.gov
+      Hours_of_Service: 0700-1730 M-Th (EDT)
+      Contact_Instructions: Contact via email is preferred.
+  Resource_Description: Downloadable Data
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Shapefile
+        Format_Version_Number: ArcGIS 10.1.0.3035
+        Format_Specification: ESRI Shapefile
+        Format_Information_Content: final
+    Fees: None
+    Ordering_Instructions: Requests for hardcopy (CD) data should be directed to the Data Distributor or Data Point of Contact.
+    Turnaround: 1-3 days
+Metadata_Reference_Information:
+  Metadata_Date: 20131217
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Cleo L. Baker
+        Contact_Organization: Virginia Department of Environmental Quality
+      Contact_Position: Environmental/GIS Data Specialist Senior
+      Contact_Address:
+        Address_Type: mailing address
+        Address: P.O. Box 1105
+        City: Richmond
+        State_or_Province: Virginia
+        Postal_Code: 23218-1105
+        Country: USA
+      Contact_Voice_Telephone: 804-698-4191
+      Contact_Facsimile_Telephone: 804-698-4032
+      Contact_Electronic_Mail_Address: Cleo.Baker@deq.virginia.gov
+      Hours_of_Service: 0700-1730 M-Th (EDT)
+      Contact_Instructions: Contact via email is preferred.
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: none
+  Metadata_Use_Constraints: none
