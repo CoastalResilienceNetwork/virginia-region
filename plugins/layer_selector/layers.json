@@ -52,7 +52,7 @@
                     ]
                 },
                 {
-                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Virginia",
+                    "url": "http://services.coastalresilience.org/arcgis/rest/services/Virginia",
                     "name": "",
                     "services": [
                         { "name": "Virginia", "type":"dynamic", "displayName":"Habitats", "description":"","showLayers": [
@@ -65,7 +65,7 @@
                     ]
                 },
                 {
-                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Virginia",
+                    "url": "http://services.coastalresilience.org/arcgis/rest/services/Virginia",
                     "name": "",
                     "services": [
                         { "name": "Virginia", "type":"dynamic", "displayName":"Physical Features", "description":"","showLayers": [
@@ -79,7 +79,7 @@
                     ]
                 },
                 {
-                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Virginia",
+                    "url": "http://services.coastalresilience.org/arcgis/rest/services/Virginia",
                     "name": "",
                     "services": [
                         { "name": "Virginia", "type":"dynamic", "displayName":"Social and Economic", "description":"","showLayers": [
