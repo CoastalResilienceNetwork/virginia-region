@@ -46,8 +46,7 @@
                                 {"id":19, "parentLayerId":-1 },
                                 {"id":20, "parentLayerId":-1 },
                                 {"id":21, "parentLayerId":-1 },
-                                {"id":22, "parentLayerId":-1 },
-                                {"id":23, "parentLayerId":-1 }
+                                {"id":22, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -57,10 +56,10 @@
                     "name": "",
                     "services": [
                         { "name": "Virginia", "type":"dynamic", "displayName":"Habitats", "description":"","showLayers": [
+                                {"id":24, "parentLayerId":-1 },
                                 {"id":25, "parentLayerId":-1 },
                                 {"id":26, "parentLayerId":-1 },
-                                {"id":27, "parentLayerId":-1 },
-                                {"id":28, "parentLayerId":-1 }
+                                {"id":27, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -70,11 +69,11 @@
                     "name": "",
                     "services": [
                         { "name": "Virginia", "type":"dynamic", "displayName":"Physical Features", "description":"","showLayers": [
+                                {"id":29, "parentLayerId":-1 },
                                 {"id":30, "parentLayerId":-1 },
                                 {"id":31, "parentLayerId":-1 },
                                 {"id":32, "parentLayerId":-1 },
-                                {"id":33, "parentLayerId":-1 },
-                                {"id":34, "parentLayerId":-1 }
+                                {"id":33, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -84,11 +83,11 @@
                     "name": "",
                     "services": [
                         { "name": "Virginia", "type":"dynamic", "displayName":"Social and Economic", "description":"","showLayers": [
+                                {"id":35, "parentLayerId":-1 },
                                 {"id":36, "parentLayerId":-1 },
                                 {"id":37, "parentLayerId":-1 },
                                 {"id":38, "parentLayerId":-1 },
-                                {"id":39, "parentLayerId":-1 },
-                                {"id":40, "parentLayerId":-1 }
+                                {"id":39, "parentLayerId":-1 }
                             ]
                         }   
                     ]
