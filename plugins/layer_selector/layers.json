@@ -44,7 +44,6 @@
                         { "name": "Virginia", "type":"dynamic", "displayName":"Coastal Management", "description":"","showLayers": [
                                 {"id":18, "parentLayerId":-1 },
                                 {"id":19, "parentLayerId":-1 },
-                                {"id":20, "parentLayerId":-1 },
                                 {"id":21, "parentLayerId":-1 },
                                 {"id":22, "parentLayerId":-1 }
                             ]
