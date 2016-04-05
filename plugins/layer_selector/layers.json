@@ -8,7 +8,7 @@
                     "url": "http://services.coastalresilience.org/arcgis/rest/services/Virginia",
                     "name": "",
                     "services": [
-                        { "name": "Virginia", "type":"dynamic", "displayName":"Base Data", "description":"","showLayers": [
+                        { "name": "Virginia", "type":"dynamic", "displayName":"Base Data", "description":"Base data such as town & county boundaries, parcels and roads.","showLayers": [
                                 {"id":1, "parentLayerId":-1 },
                                 {"id":2, "parentLayerId":-1 },
                                 {"id":3, "parentLayerId":-1 },
@@ -23,7 +23,7 @@
                     "url": "http://services.coastalresilience.org/arcgis/rest/services/Virginia",
                     "name": "",
                     "services": [
-                        { "name": "Virginia", "type":"dynamic", "displayName":"Infrastructure", "description":"","showLayers": [
+                        { "name": "Virginia", "type":"dynamic", "displayName":"Infrastructure", "description":"Infrastructure data such as schools, fire and rescue stations and data from a road vulnerability study.","showLayers": [
                                 {"id":8, "parentLayerId":-1 },
                                 {"id":9, "parentLayerId":-1 },
                                 {"id":10, "parentLayerId":-1 },
@@ -41,13 +41,12 @@
                     "url": "http://services.coastalresilience.org/arcgis/rest/services/Virginia",
                     "name": "",
                     "services": [
-                        { "name": "Virginia", "type":"dynamic", "displayName":"Coastal Management", "description":"","showLayers": [
+                        { "name": "Virginia", "type":"dynamic", "displayName":"Coastal Management", "description":"Coastal management data such as access sites, flood zones and protected lands.","showLayers": [
                                 {"id":18, "parentLayerId":-1 },
                                 {"id":19, "parentLayerId":-1 },
                                 {"id":20, "parentLayerId":-1 },
                                 {"id":21, "parentLayerId":-1 },
-                                {"id":22, "parentLayerId":-1 },
-                                {"id":23, "parentLayerId":-1 }
+                                {"id":22, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -56,11 +55,11 @@
                     "url": "http://services.coastalresilience.org/arcgis/rest/services/Virginia",
                     "name": "",
                     "services": [
-                        { "name": "Virginia", "type":"dynamic", "displayName":"Habitats", "description":"","showLayers": [
+                        { "name": "Virginia", "type":"dynamic", "displayName":"Habitats", "description":"Habitat data including aquaculture sites, public oyster grounds, marshes and SAV beds.","showLayers": [
+                                {"id":24, "parentLayerId":-1 },
                                 {"id":25, "parentLayerId":-1 },
                                 {"id":26, "parentLayerId":-1 },
-                                {"id":27, "parentLayerId":-1 },
-                                {"id":28, "parentLayerId":-1 }
+                                {"id":27, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -69,12 +68,12 @@
                     "url": "http://services.coastalresilience.org/arcgis/rest/services/Virginia",
                     "name": "",
                     "services": [
-                        { "name": "Virginia", "type":"dynamic", "displayName":"Physical Features", "description":"","showLayers": [
+                        { "name": "Virginia", "type":"dynamic", "displayName":"Physical Features", "description":"Physical features including soils, wetlands, land cover and elevation.","showLayers": [
+                                {"id":29, "parentLayerId":-1 },
                                 {"id":30, "parentLayerId":-1 },
                                 {"id":31, "parentLayerId":-1 },
                                 {"id":32, "parentLayerId":-1 },
-                                {"id":33, "parentLayerId":-1 },
-                                {"id":34, "parentLayerId":-1 }
+                                {"id":33, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -83,12 +82,12 @@
                     "url": "http://services.coastalresilience.org/arcgis/rest/services/Virginia",
                     "name": "",
                     "services": [
-                        { "name": "Virginia", "type":"dynamic", "displayName":"Social and Economic", "description":"","showLayers": [
+                        { "name": "Virginia", "type":"dynamic", "displayName":"Social and Economic", "description":"Various population data from the U.S. Census Bureau.","showLayers": [
+                                {"id":35, "parentLayerId":-1 },
                                 {"id":36, "parentLayerId":-1 },
                                 {"id":37, "parentLayerId":-1 },
                                 {"id":38, "parentLayerId":-1 },
-                                {"id":39, "parentLayerId":-1 },
-                                {"id":40, "parentLayerId":-1 }
+                                {"id":39, "parentLayerId":-1 }
                             ]
                         }   
                     ]
