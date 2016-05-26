@@ -7,10 +7,6 @@
         {
             "repo": "multiSelect",
             "name": "flood_slr"
-        },
-        {
-            "repo": "map-tree",
-            "name": "layer_selector"
         }
     ]
 }
