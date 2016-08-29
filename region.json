@@ -40,6 +40,7 @@
     ],
     "pluginOrder": [
         "layer_selector",
+        "coastline-change",
         "flood_slr",
         "measure"
     ],
