@@ -40,6 +40,7 @@
 		{
 			"name": "Storm Surge",
 			"extent": {"xmin":-8465603.278145544,"ymin":4449501.684258065,"xmax":-8374321.7741455445,"ymax":4584528.084258066,"spatialReference":{"wkid":102100,"latestWkid":3857}},
+			"buttons": [{"title":"View Methodology","url":"https://tnc.app.box.com/s/fiya9hirlr28a96b0rwfmdzpb55hcx1i"}],
 			"controls": [
 				{"name":"Choose a Scenario Year", "help": "<img src='methods/SLR_graphic_storm_surge.png' />", "index":0, "values":[{"name":"Current","value":"Current", "help": "Current Year", "selected": true},{"name":"2040", "value":"2040"}, {"name":"2065", "value":"2065"}], "type": "slider"},
 				
