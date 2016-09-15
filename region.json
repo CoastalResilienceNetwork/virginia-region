@@ -39,7 +39,7 @@
         { "name": "Basic Dark Gray"    , "url": "http://server.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer"}
     ],
     "pluginOrder": [
-        "layer_selector",
+        "regional-planning",
         "coastline-change",
         "flood_slr",
         "measure"

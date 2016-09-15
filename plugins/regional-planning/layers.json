@@ -37,6 +37,11 @@
                 "name": "Social and Economic",
 				"description":"Various population data from the U.S. Census Bureau.",
 				"includeAllLayers": true
+			},
+			{
+                "name": "Coastal Defense",
+				"description":"",
+				"includeAllLayers": true
 			}
 		]
 	}
