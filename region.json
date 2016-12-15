@@ -1,25 +1,29 @@
 {
     "googleAnalyticsPropertyId": "7401895-16",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Coastal Resilience", "url": "http://coastalresilience.org/" },
-    "titleDetail": { "text": "Eastern Shore of Virginia", "url": "http://coastalresilience.org/" },
+    "titleMain": { "text": "Coastal Resilience", "url": "http://maps.coastalresilience.org/virginia" },
+    "titleDetail": { "text": "Virginia Eastern Shore", "url": "http://coastalresilience.org/virginia" },
     "headerLinks": [
         { "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
         { "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
         { "text": "GO TO", "url": "#", "items": [
-                { "text": "Entire USA", "url": "http://maps.coastalresilience.org/us/" },
+                { "text": "California", "url": "http://maps.coastalresilience.org/california/" },
+                { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut/" },
                 { "text": "Florida Keys", "url": "http://maps.coastalresilience.org/flkeys/" },
+                { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
                 { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
                 { "text": "Gulf of Mexico", "url": "http://maps.coastalresilience.org/gulfmex/" },
                 { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
-                { "text": "New York & Connecticut", "url": "http://maps.coastalresilience.org/nyct" },
+                { "text": "New York", "url": "http://maps.coastalresilience.org/newyork" },
                 { "text": "New Jersey", "url": "http://maps.coastalresilience.org/nj" },
+                { "text": "North Carolina", "url": "http://maps.coastalresilience.org/northcarolina/" },
                 { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
+                { "text": "USA", "url": "http://maps.coastalresilience.org/us/" },
+                { "text": "Virginia Eastern Shore", "url": "http://maps.coastalresilience.org/virginia/" },
                 { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
             ]
         },
-        { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
-        { "text": "Partners", "url": "partners.html", "popup": true },
+        { "text": "The Nature Conservancy", "url": "http://nature.org" },
         { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
     ],
     "initialExtent": [
@@ -77,7 +81,7 @@
         {
             "id": "get-started",
             "title": "Getting Started",
-            "description": "Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities to visualize the risks imposed by sea-level rise and storm surge on the people, economy, and coastal habitats of the Eastern Shore and identify nature-based solutions for enhancing resilience and reducing risks where possible.<br><br>For additional project information, visit the <a href= 'http://www.coastalresilience.org/project-areas/virginia-introduction/' target='_blank'><b>Virginia Eastern Shore</b></a> home page. For questions please contact us at <b>vacoastalresilience@tnc.org</b>",
+            "description": "Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities to visualize the risks imposed by sea-level rise and storm surge on the people, economy, and coastal habitats of the Eastern Shore and identify nature-based solutions for enhancing resilience and reducing risks where possible.<br><br>For additional project information, visit the <a href= 'http://www.coastalresilience.org/project-areas/virginia-introduction/' target='_blank'><b>Virginia Eastern Shore</b></a> home page. For questions please contact us at <b>vacoastalresilience@tnc.org</b><br><br><center><img src='img/CR_VA_logos.png'></center>",
             "showSubRegions": false,
             "subRegionDescription": "Choose a specific region and it will take you there, or you can freely explore the map.",
             "showByDefault": true,
