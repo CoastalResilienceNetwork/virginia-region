@@ -37,11 +37,6 @@
                 "name": "Social and Economic",
 				"description":"Various population data from the U.S. Census Bureau.",
 				"includeAllLayers": true
-			},
-			{
-                "name": "Estimated Storm Surge Economic Losses",
-				"description":"Economic loss data for various storm surge scenarios were developed using FEMA's HAZUS-MH risk analysis software.",
-				"includeAllLayers": true
 			}
 		]
 	}
