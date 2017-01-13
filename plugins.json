@@ -5,6 +5,10 @@
             "name": "future_habitat"
         },
         {
+            "repo": "coastline-change",
+            "name": "coastline-change"
+        },        
+        {
             "repo": "multiSelect",
             "name": "flood_slr"
         },
