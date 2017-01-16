@@ -13,8 +13,12 @@
             "name": "flood_slr"
         },
         {
-            "repo": "map-tree",
-            "name": "layer_selector"
-        }
+            "repo": "coastline-change",
+            "name": "coastline-change"
+        },
+		{
+			"repo": "regional-planning",
+			"name": "regional-planning"
+		}
     ]
 }
