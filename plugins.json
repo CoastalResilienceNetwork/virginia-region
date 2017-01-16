@@ -12,10 +12,6 @@
             "repo": "multiSelect",
             "name": "flood_slr"
         },
-        {
-            "repo": "coastline-change",
-            "name": "coastline-change"
-        },
 		{
 			"repo": "regional-planning",
 			"name": "regional-planning"
