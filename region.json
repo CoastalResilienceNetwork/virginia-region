@@ -61,16 +61,11 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
             "title": "",
-            "description": "<p>Welcome to the Protecting Water Atlas, where users can explore data and analyses that underpin The Nature Conservancy&#39;s global-scale reports, <a href='https://global.nature.org/content/beyond-the-source' target='_blank'>Beyond the Source: The Environmental, Economic and Community Benefits of Source Water 
-                Protection</a>, and <a href='https://global.nature.org/content/water-share' target='_blank'> Water Share: Using Water Markets and Impact 
-                Investment to Drive Sustainability</a>. This mapping site is part of a family of spatial decision tools supported through the 
-                <a href='http://coastalresilience.org/natural-solutions/toolkit/' target='_blank'>Natural Solutions Toolkit</a>.</p>
-                <p>From analyses of source watersheds of more than 4,000 large cities, <b>Beyond the Source</b> finds that natural solutions can improve water quality for four out 
-                of five cities and provide a variety of other co-benefits to people and nature. The report highlights water funds as a successful funding, governance, and implementation 
-                mechanism for source water protection.</p>
-                <p><b>Water Share</b> explores the potential for water markets and impact investment to enhance global water scarcity. Today, nearly half of all people are affected by global 
-                water scarcity, and climate change will further exacerbate our water challenges. The report explores how water markets offer a powerful mechanism for alleviating scarcity, 
-                restoring ecosystems, and driving sustainable water management.</p>",
+            "description": "<p>Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities to visualize the risks imposed by sea-level rise and storm surge on the people, economy, and coastal habitats of the Eastern Shore and identify nature-based solutions for enhancing resilience and reducing risks where possible. Partners in this effort include <a href='http://www.a-npdc.org/' target='_blank'>Accomack-Northampton Planning District Commission 
+                </a>, <a href='http://www.vcrlter.virginia.edu/home2/' target='_blank'> University of Virginia’s Long-Term Ecological Research Project</a>, 
+                <a href='http://ccrm.vims.edu/' target='_blank'>Virginia Institute of Marine Science’s Center for Coastal Resource Management</a>, <a href='http://www.unc.edu/' target='_blank'>University of North Carolina at Chapel Hill</a>, <a href='http://www.rmc.edu/' target='_blank'>Randolph-Macon College</a>, <a href='https://duke.edu/' target='_blank'>Duke University</a>, <a href='http://uncw.edu/' target='_blank'>University of North Carolina-Wilmington</a>, <a href='http://www.naturalcapitalproject.org/' target='_blank'>Natural Capital Project</a>,
+                <a href='http://www.deborahbrosnan.com/' target='_blank'>The Brosnan Center for Risk Reduction</a>, <a href='https://www.nasa.gov/centers/wallops/home' target='_blank'>NASA-Wallops Flight Facility</a>, <a href='https://www.fws.gov/refuge/chincoteague/' target='_blank'>U.S. Fish and Wildlife Service Chincoteague National Wildlife Refuge</a>, 
+                <a href='https://www.arcadis.com//en/united-states/cookie-wall/' target='_blank'>ARCADIS US, Inc.</a>, and <a href='http://www.warrenpinnacle.com/' target='_blank'>Warren-Pinnacle Consulting, Inc.</a>.</p>",
             "plugins": [
                 {
                     "title": "Source Protection Explorer",
