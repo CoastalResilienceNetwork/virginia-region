@@ -14,7 +14,8 @@
         },
 		{
 			"repo": "regional-planning",
-			"name": "regional-planning"
+			"name": "regional-planning",
+            "ver": "a26cf79"
 		}
     ]
 }
