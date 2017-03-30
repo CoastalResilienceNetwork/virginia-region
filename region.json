@@ -4,7 +4,6 @@
     "titleMain": { "text": "Coastal Resilience", "url": "http://maps.coastalresilience.org/virginia" },
     "titleDetail": { "text": "Virginia Eastern Shore", "url": "http://coastalresilience.org/virginia" },
 	"headerLinks": [
-	    { "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
         { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
     ],
