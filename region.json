@@ -61,34 +61,36 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
             "title": "",
-            "description": "<p>Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities to visualize the risks imposed by sea-level rise and storm surge on the people, economy, and coastal habitats of the Eastern Shore and identify nature-based solutions for enhancing resilience and reducing risks where possible. Partners in this effort include <a href='http://www.a-npdc.org/' target='_blank'>Accomack-Northampton Planning District Commission 
+            "description": "<p>Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities to visualize the risks imposed by sea-level rise and storm surge on the people, economy, and coastal habitats of the Eastern Shore and identify nature-based solutions for enhancing resilience and reducing risks where possible.</p>",
+            "plugins": [
+                {
+                    "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
+                    "description": "Text needed",
+                    "pluginName": "flood_slr"
+                },
+                {
+                    "title": "<img src='img/future_habitat.png' hspace=10>Future Habitat",
+                    "description": "Text needed",
+                    "pluginName": "future_habitat"
+                },
+                {
+                    "title": "<img src='img/coastline_change.png' hspace=10>Coastline Change",
+                    "description": "Text needed",
+                    "pluginName": "coastline-change"
+                }
+            ],
+            "partners": [
+                {
+                    "logoPath": "img/CR_VA_logos.png",
+                    "link": "",
+                    "title": "<a href='http://www.a-npdc.org/' target='_blank'>Accomack-Northampton Planning District Commission 
                 </a>, <a href='http://www.vcrlter.virginia.edu/home2/' target='_blank'> University of Virginia’s Long-Term Ecological Research Project</a>, 
                 <a href='http://ccrm.vims.edu/' target='_blank'>Virginia Institute of Marine Science’s Center for Coastal Resource Management</a>, <a href='http://www.unc.edu/' target='_blank'>University of North Carolina at Chapel Hill</a>, <a href='http://www.rmc.edu/' target='_blank'>Randolph-Macon College</a>, <a href='https://duke.edu/' target='_blank'>Duke University</a>, <a href='http://uncw.edu/' target='_blank'>University of North Carolina-Wilmington</a>, <a href='http://www.naturalcapitalproject.org/' target='_blank'>Natural Capital Project</a>,
                 <a href='http://www.deborahbrosnan.com/' target='_blank'>The Brosnan Center for Risk Reduction</a>, <a href='https://www.nasa.gov/centers/wallops/home' target='_blank'>NASA-Wallops Flight Facility</a>, <a href='https://www.fws.gov/refuge/chincoteague/' target='_blank'>U.S. Fish and Wildlife Service Chincoteague National Wildlife Refuge</a>, 
-                <a href='https://www.arcadis.com//en/united-states/cookie-wall/' target='_blank'>ARCADIS US, Inc.</a>, and <a href='http://www.warrenpinnacle.com/' target='_blank'>Warren-Pinnacle Consulting, Inc.</a>.</p>",
-            "plugins": [
-                {
-                    "title": "Source Protection Explorer",
-                    "description": "Investing in watershed health is a sustainable way to enhance water security. The Water Security Explorer enables users to explore cities that can meet specified pollution reduction targets using conservation actions and the area and cost required to reach these targets.",
-                    "pluginName": "water_security"
-                },
-                {
-                    "title": "Benefits Explorer",
-                    "description": "Investing in watersheds produces a range of benefits that address other social, economic and ecological challenges in addition to water security. The Benefits Explorer app allows users to see where investments may achieve the most co-benefits for people and nature.",
-                    "pluginName": "benefits_explorer"
-                },
-                {
-                    "title": "Water Funds Explorer",
-                    "description": "Water Funds are a way to protect source water and share the benefits of healthy watersheds across communities. The Water Funds Explorer app allows users to view where water funds have been established, learn about their key attributes, and query across funds to see what approaches and attributes various funds have in common.",
-                    "pluginName": "water_funds_prototype"
-                },
-                {
-                    "title": "Water Scarcity Explorer",
-                    "description": "Innovative investments can help address water depletion. The Water Share app enables users to look at how, where and when water has been used and explore potential strategies to alleviate scarcity within a given basin.",
-                    "pluginName": "water_share"
-                }
-            ]
-      }
+                <a href='https://www.arcadis.com//en/united-states/cookie-wall/' target='_blank'>ARCADIS US, Inc.</a>, and <a href='http://www.warrenpinnacle.com/' target='_blank'>Warren-Pinnacle Consulting, Inc.</a>."
+            }
+        ]
+    }
 }
 
 
