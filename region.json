@@ -81,13 +81,9 @@
             ],
             "partners": [
                 {
-                    "logoPath": "img/CR_VA_logos.png",
-                    "link": "",
-                    "title": "<a href='http://www.a-npdc.org/' target='_blank'>Accomack-Northampton Planning District Commission 
-                </a>, <a href='http://www.vcrlter.virginia.edu/home2/' target='_blank'> University of Virginia’s Long-Term Ecological Research Project</a>, 
-                <a href='http://ccrm.vims.edu/' target='_blank'>Virginia Institute of Marine Science’s Center for Coastal Resource Management</a>, <a href='http://www.unc.edu/' target='_blank'>University of North Carolina at Chapel Hill</a>, <a href='http://www.rmc.edu/' target='_blank'>Randolph-Macon College</a>, <a href='https://duke.edu/' target='_blank'>Duke University</a>, <a href='http://uncw.edu/' target='_blank'>University of North Carolina-Wilmington</a>, <a href='http://www.naturalcapitalproject.org/' target='_blank'>Natural Capital Project</a>,
-                <a href='http://www.deborahbrosnan.com/' target='_blank'>The Brosnan Center for Risk Reduction</a>, <a href='https://www.nasa.gov/centers/wallops/home' target='_blank'>NASA-Wallops Flight Facility</a>, <a href='https://www.fws.gov/refuge/chincoteague/' target='_blank'>U.S. Fish and Wildlife Service Chincoteague National Wildlife Refuge</a>, 
-                <a href='https://www.arcadis.com//en/united-states/cookie-wall/' target='_blank'>ARCADIS US, Inc.</a>, and <a href='http://www.warrenpinnacle.com/' target='_blank'>Warren-Pinnacle Consulting, Inc.</a>."
+                    "logoPath": "img/tnc1.png",
+                    "link": "http://nature.org",
+                    "title": "The Nature Conservancy"
             }
         ]
     }
