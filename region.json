@@ -38,7 +38,6 @@
 	{ "name": "Basic Dark Gray"    , "url": "http://server.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer" }  
     ],
     "pluginOrder": [
-        "launchpad",
 		"regional-planning",
         "flood_slr",
 		"future_habitat",
