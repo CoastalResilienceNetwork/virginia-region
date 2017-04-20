@@ -60,29 +60,109 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
             "title": "Virginia Eastern Shore",
-            "description": "<p>Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities to visualize the risks imposed by sea-level rise and storm surge on the people, economy, and coastal habitats of the Eastern Shore and identify nature-based solutions for enhancing resilience and reducing risks where possible.</p>",
+            "description": "<p>Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities to visualize the risks imposed by sea-level rise and storm surge on the people, economy, and coastal habitats of the Eastern Shore and identify nature-based solutions for enhancing resilience and reducing risks where possible. For additional project information, visit the <a href= 'http://coastalresilience.org/project/virginia-eastern-shore/' target='_blank'><b>Virginia Eastern Shore</b></a> home page. For questions please contact us at <b>vacoastalresilience@tnc.org</b></p>",
             "plugins": [
                 {
                     "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
-                    "description": "Text needed",
+                    "description": "Flood & Sea Level Rise shows the potential inundation effects of sea-level rise, as well as the effects of sea-level rise on wind- and wave-driven storm surge.",
                     "pluginName": "flood_slr"
                 },
                 {
                     "title": "<img src='img/future_habitat.png' hspace=10>Future Habitat",
-                    "description": "Text needed",
+                    "description": "Future Habitat shows how the size and distribution of tidal marshes and other coastal habitats may change in response to future projected sea-level rise scenarios.",
                     "pluginName": "future_habitat"
                 },
                 {
                     "title": "<img src='img/coastline_change.png' hspace=10>Coastline Change",
-                    "description": "Text needed",
+                    "description": "Coastline Change shows how Virginia barrier island shorelines have changed in the past, and how climate change combined with management actions may affect rates of shoreline change in the future.",
                     "pluginName": "coastline-change"
                 }
             ],
             "partners": [
                 {
-                    "logoPath": "img/tnc1.png",
+                    "logoPath": "img/TNC2017.jpg",
                     "link": "http://nature.org",
                     "title": "The Nature Conservancy"
+                },
+                {
+                    "logoPath": "img/CAWG.png",
+                    "link": "http://www.a-npdc.org/accomack-northampton-planning-district-commission/coastal-resources/climate-adaptation-working-group/",
+                    "title": "Climate Adaptation Working Group"
+                },
+                {
+                    "logoPath": "img/ANPDC.png",
+                    "link": "http://www.a-npdc.org/",
+                    "title": "Accomack Northampton Planning District"
+                },
+                {
+                    "logoPath": "img/LTER.png",
+                    "link": "https://www.vcrlter.virginia.edu/home2/",
+                    "title": "Virginia Coast Reserve Long-Term Ecological Research"
+                },
+                {
+                    "logoPath": "img/UVA.png",
+                    "link": "http://www.virginia.edu/",
+                    "title": "University of Virginia"
+                },
+                {
+                    "logoPath": "img/NASA.png",
+                    "link": "https://www.nasa.gov/centers/wallops/home",
+                    "title": "NASA"
+                },
+                {
+                    "logoPath": "img/USFWS.png",
+                    "link": "https://www.fws.gov/refuge/chincoteague/",
+                    "title": "U.S. Fish & Wildlife Service"
+                },
+                {
+                    "logoPath": "img/NFWF.png",
+                    "link": "http://www.nfwf.org/Pages/default.aspx",
+                    "title": "National Fish and Wildlife Foundation"
+                },
+                {
+                    "logoPath": "img/UNCCH.png",
+                    "link": "http://cecl.web.unc.edu/",
+                    "title": "University of North Carolina Chapel Hill"
+                },
+                {
+                    "logoPath": "img/Duke.png",
+                    "link": "https://nicholas.duke.edu/",
+                    "title": "Duke University"
+                },
+                {
+                    "logoPath": "img/UNCW.png",
+                    "link": "http://uncw.edu/phy/index.html",
+                    "title": "University of North Carolina Wilmington"
+                },
+                {
+                    "logoPath": "img/RMC.png",
+                    "link": "http://www.rmc.edu/",
+                    "title": "Randolph-Macon College"
+                },
+                {
+                    "logoPath": "img/USM.png",
+                    "link": "https://www.usm.edu/",
+                    "title": "University of Southern Mississippi"
+                },
+                {
+                    "logoPath": "img/VIMS.png",
+                    "link": "http://www.vims.edu/",
+                    "title": "Virginia Institute of Marine Science"
+                },
+                {
+                    "logoPath": "img/Brosnan.png",
+                    "link": "http://www.deborahbrosnan.com/",
+                    "title": "Deborah Brosnan & Associates"
+                },
+                {
+                    "logoPath": "img/Arcadis.png",
+                    "link": "https://www.arcadis.com//en/united-states/cookie-wall/",
+                    "title": "Arcadis"
+                },
+                {
+                    "logoPath": "img/WPC.png",
+                    "link": "http://warrenpinnacle.com/",
+                    "title": "Warren Pinnacle Consulting"
             }
         ]
     }
