@@ -64,17 +64,17 @@
             "plugins": [
                 {
                     "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
-                    "description": "Flood & Sea Level Rise shows the potential inundation effects of sea-level rise, as well as the effects of sea-level rise on wind- and wave-driven storm surge.",
+                    "description": "Shows the potential inundation effects of sea-level rise, as well as the effects of sea-level rise on wind- and wave-driven storm surge.",
                     "pluginName": "flood_slr"
                 },
                 {
                     "title": "<img src='img/future_habitat.png' hspace=10>Future Habitat",
-                    "description": "Future Habitat shows how the size and distribution of tidal marshes and other coastal habitats may change in response to future projected sea-level rise scenarios.",
+                    "description": "Shows how the size and distribution of tidal marshes and other coastal habitats may change in response to future projected sea-level rise scenarios.",
                     "pluginName": "future_habitat"
                 },
                 {
                     "title": "<img src='img/coastline_change.png' hspace=10>Coastline Change",
-                    "description": "Coastline Change shows how Virginia barrier island shorelines have changed in the past, and how climate change combined with management actions may affect rates of shoreline change in the future.",
+                    "description": "Shows how Virginia barrier island shorelines have changed in the past, and how climate change combined with management actions may affect rates of shoreline change in the future.",
                     "pluginName": "coastline-change"
                 }
             ],
