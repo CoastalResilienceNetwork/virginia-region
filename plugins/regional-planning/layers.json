@@ -1,11 +1,11 @@
 [
     {
-        "displayName": "Base Data",
+        "displayName": "Virginia",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Virginia/Virginia",
-            "name": "Base Data"
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Virginia",
+            "name": "Virginia"
         },
         "includeLayers": [
             {
@@ -41,3 +41,4 @@
 		]
 	}
 ]
+
