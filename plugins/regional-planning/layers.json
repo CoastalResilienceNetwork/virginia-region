@@ -31,7 +31,7 @@
                     	"reports": [
                     {
                         "display": "Area Summary",
-                        "units": "acres",
+                        "units": "sq km",
                         "field": "Category"
                     }
                 ]
@@ -65,7 +65,7 @@
                     	"reports": [
                     {
                         "display": "Area Summary",
-                        "units": "acres",
+                        "units": "sq km",
                         "field": "definition"
                     }
                 ]
@@ -95,7 +95,7 @@
                     	"reports": [
                     {
                         "display": "Area Summary",
-                        "units": "acres",
+                        "units": "sq km",
                         "field": "WETLAND_TY"
                     }
                 ]
