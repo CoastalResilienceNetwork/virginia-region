@@ -21,19 +21,102 @@
 			{
                 "name": "Coastal Management",
 				"description":"Coastal management data such as access sites, flood zones and protected lands.",
-				"includeAllLayers": true
-			},
-			{
-                "name": "Habitats",
-				"description":"Habitat data including aquaculture sites, public oyster grounds, marshes and SAV beds.",
-				"includeAllLayers": true
-			},
-			{
+        		"includeLayers": [
+            		{
+                		"name": "Protected Lands",
+                		"displayName": "Protected Lands",
+                    	"reportDbLayerName": "protected_lands",
+                    	"reports": [
+                    {
+                        "display": "Area Summary",
+                        "units": "acres",
+                        "field": "GIS_ACRES"
+                    }
+                ]
+            },
+            {
+                "name": "Public Water Access Sites",
+                "displayName": "Public Water Access Sites"
+            },
+            {
+                "name": "303(d) Streams",
+                "displayName": "303(d) Streams"
+            },
+            {
+                "name": "Flood Hazard Areas (2014)",
+                "displayName": "Flood Hazard Areas (2014)"
+            },
+            {
+                "name": "Virginia Ecological Value Assessment Rank",
+                "displayName": "Ecological Value Assessment Rank"
+            }
+        ]
+	},
+	{
+            "name": "Habitats",
+			"description":"Habitat data including aquaculture sites, public oyster grounds, marshes and SAV beds.",
+        	"includeLayers": [
+            		{
+                		"name": "Tidal Marshes",
+                		"displayName": "Tidal Marshes",
+                    	"reportDbLayerName": "va_tidal_marshes",
+                    	"reports": [
+                    {
+                        "display": "Area Summary",
+                        "units": "acres",
+                        "field": "acres"
+                    }
+                ]
+            },
+            {
+                "name": "Commercial Shellfish Aquaculture Sites",
+                "displayName": "Commercial Shellfish Aquaculture Sites"
+            },
+            {
+                "name": "Baylor Grounds (Public Oyster Grounds)",
+                "displayName": "Baylor Grounds (Public Oyster Grounds)"
+            },
+            {
+                "name": "2014 SAV Beds",
+                "displayName": "2014 SAV Beds"
+            }
+        ]
+	},
+	{
                 "name": "Physical Features",
 				"description":"Physical features including soils, wetlands, land cover and elevation.",
-				"includeAllLayers": true
-			},
-			{
+        		"includeLayers": [
+            		{
+                		"name": "Wetlands",
+                		"displayName": "Wetlands",
+                    	"reportDbLayerName": "NWI_wetlands",
+                    	"reports": [
+                    {
+                        "display": "Area Summary",
+                        "units": "acres",
+                        "field": "ACRES"
+                    }
+                ]
+            },
+            {
+                "name": "Elevation Points (ft) (Zoom in to view)",
+                "displayName": "Elevation Points (ft) - zoom in to view"
+            },
+            {
+                "name": "Soils",
+                "displayName": "Soils"
+            },
+            {
+                "name": "C-CAP Land Cover (2010)",
+                "displayName": "C-CAP Land Cover (2010)"
+            },
+            {
+                "name": "Elevation (ft)",
+                "displayName": "Elevation (ft)"
+            }
+        ]
+	},
+	{
                 "name": "Social and Economic",
 				"description":"Various population data from the U.S. Census Bureau.",
 				"includeAllLayers": true
