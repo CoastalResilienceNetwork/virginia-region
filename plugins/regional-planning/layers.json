@@ -32,7 +32,7 @@
                     {
                         "display": "Area Summary",
                         "units": "acres",
-                        "field": "GIS_ACRES"
+                        "field": ""
                     }
                 ]
             },
@@ -66,7 +66,7 @@
                     {
                         "display": "Area Summary",
                         "units": "acres",
-                        "field": "acres"
+                        "field": ""
                     }
                 ]
             },
@@ -96,7 +96,7 @@
                     {
                         "display": "Area Summary",
                         "units": "acres",
-                        "field": "ACRES"
+                        "field": ""
                     }
                 ]
             },
