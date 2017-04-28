@@ -32,7 +32,7 @@
                     {
                         "display": "Area Summary",
                         "units": "acres",
-                        "field": ""
+                        "field": "Category"
                     }
                 ]
             },
@@ -66,7 +66,7 @@
                     {
                         "display": "Area Summary",
                         "units": "acres",
-                        "field": ""
+                        "field": "definition"
                     }
                 ]
             },
@@ -96,7 +96,7 @@
                     {
                         "display": "Area Summary",
                         "units": "acres",
-                        "field": ""
+                        "field": "WETLAND_TY"
                     }
                 ]
             },
