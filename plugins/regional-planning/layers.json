@@ -27,11 +27,11 @@
             		{
                 		"name": "Protected Lands",
                 		"displayName": "Protected Lands",
-                    	"reportDbLayerName": "protected_lands",
+                    	"reportDbLayerName": "protected_lands_StatePlane",
                     	"reports": [
                     {
                         "display": "Area Summary",
-                        "units": "sq km",
+                        "units": "acres",
                         "field": "Category"
                     }
                 ]
