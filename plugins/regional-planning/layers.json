@@ -61,11 +61,11 @@
             		{
                 		"name": "Tidal Marshes",
                 		"displayName": "Tidal Marshes",
-                    	"reportDbLayerName": "va_tidal_marshes",
+                    	"reportDbLayerName": "va_tidal_marshes_StatePlane",
                     	"reports": [
                     {
                         "display": "Area Summary",
-                        "units": "sq km",
+                        "units": "acres",
                         "field": "definition"
                     }
                 ]
@@ -91,11 +91,11 @@
             		{
                 		"name": "Wetlands",
                 		"displayName": "Wetlands",
-                    	"reportDbLayerName": "NWI_wetlands",
+                    	"reportDbLayerName": "NWI_wetlands_StatePlane",
                     	"reports": [
                     {
                         "display": "Area Summary",
-                        "units": "sq km",
+                        "units": "acres",
                         "field": "WETLAND_TY"
                     }
                 ]
