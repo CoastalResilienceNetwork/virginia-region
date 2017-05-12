@@ -31,7 +31,7 @@
                     	"reports": [
                     {
                         "display": "Area Summary",
-                        "units": "acres",
+                        "units": "sq km",
                         "field": "Category"
                     }
                 ]
