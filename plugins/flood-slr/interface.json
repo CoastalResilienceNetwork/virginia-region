@@ -1,5 +1,6 @@
 {
-	"infoGraphic": {
+	"includeMinimize": true,
+    "infoGraphic": {
 		"show": false,
 		"popup": true,
 		"width":600,
