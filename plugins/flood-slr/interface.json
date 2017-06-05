@@ -35,7 +35,7 @@
 				}
 			},
 			"tooltips": {
-				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
+				"hazard": "Storm surge and/or basic inundation scenarios to be visualized on the map.",
 				"climate": { 
 					"control":"hazard",
 					"values": {
