@@ -6,7 +6,7 @@
 	"infoGraphic": "FutureHabitat_c.jpg",
 	"legendName": "Habitat Type <a target='_blank' href='methods/future_habitat_descriptions.pdf'> More Info (Click)</a>",
 	"regionLabeler": "Data Source: #",
-	"helpWidth": "550px",
+	"helpWidth": "660px",
     "pluginData": [
 {
 	"name": "Virginia",
@@ -16,7 +16,7 @@
 	"root": "VA",
 	"field": "name",
 	"buttons": [{"url": "http://data.coastalresilience.org/Virginia/VA_Future_Habitat_gdb.zip", "title": "Download Data"},{"url": "http://warrenpinnacle.com/prof/SLAMM/TNC_ESVA/ESVA_SLAMM_Nov_2015_Report_Final.pdf", "title": "View Methodology"}],
-	"additionalText": "<br><br>Note that Barrier Islands were modeled separately. Barrier island app coming soon.",
+	"additionalText": "<br><br>Note that barrier islands were modeled separately. See the Coastline Change app for more information.",
 	"initialCondition": "current_condition",
 	"delimiter": "_",
 	"correction": {high:[100,0.1055], low:[7,1]},
