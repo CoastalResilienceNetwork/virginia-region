@@ -9,6 +9,10 @@
             "name": "flood-slr"
         },
         {
+            "repo":"living-shorelines-explorer",
+            "name":"living-shorelines-explorer"
+        },
+        {
             "repo": "coastline-change",
             "name": "coastline-change"
         },
