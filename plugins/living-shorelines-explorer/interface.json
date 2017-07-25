@@ -23,27 +23,6 @@
 				"0": { "label": { "rep_we":"> 700 J/m", "bwe":"<100 m Rec <br><200 m Comm", "dist":"> 100 m"} }
 			},
 			"radio": {
-				"rep_we": {
-					"group": "factors",
-					"name": "rep_we",
-					"value": "rep_we",
-					"label": "Wind Wave Energy (WWE)",
-					"checked": true
-				},
-				"bwe": {
-					"group": "factors",
-					"name": "bwe",
-					"value": "bwe",
-					"label": "Boat Wake Energy: Distance (m) from Channels",
-					"checked": false
-				},
-				"dist": {
-					"group": "factors",
-					"name": "dist",
-					"value": "dist",
-					"label": "Distance (m) to Natural Marsh Shoreline",
-					"checked": false
-				}
 			},
 			"togglebutton": {
 				"vulnerability": {
@@ -162,19 +141,12 @@
 			}
 		},
 		"other": {
-			"check": {
-				"projects": { "name":"projects", "value":"projects", "label":"Existing Projects", "checked": false },
-				"marsh": { "name":"marsh", "value":"marsh", "label":"Natural Marsh", "checked": false },
-				"recreational": { "name":"recreational", "value":"recreational", "label":"Recreational Channel", "checked": false },
-				"commercial": { "name":"commercial", "value":"commercial", "label":"Commercial Channel", "checked": false },
-				"rel_we": { "name":"rel_we", "value":"rel_we", "label":"Relative Wave Energy", "checked": false }
-			}
 		}
 	},
 	"region": {
 		"Virginia": {
 			"layers": {
-				"main": { "type": "dynamic", "url":"http://dev.services.coastalresilience.org/arcgis/rest/services/Virginia/Living_Shoreline_Explorer/MapServer", "visibleIds": [1], "scaleRangeIds": { "small":[1], "large":[0] }  },
+				"main": { "type": "dynamic", "url":"http://dev.services.coastalresilience.org/arcgis/rest/services/Virginia/Living_Shoreline_Explorer/MapServer", "scaleRangeIds": { "small":[1], "large":[0] }  },
 				"feature": { "type": "feature", "url":"http://dev.services.coastalresilience.org/arcgis/rest/services/Virginia/Living_Shoreline_Explorer/MapServer/0" }
 			},
 			"definitionExpression": {
@@ -208,9 +180,10 @@
 			"interface": {
 				"description": {
 					"show":true,
-					"label":"Suitability for nature-based shoreline enhancement techniques is determined using living shoreline engineering guidelines."
+					"label":"Suitability for nature-based shoreline enhancement techniques is determined using living shoreline engineering guidelines. This app serves as a screening tool and does not replace a site visit/assessment."
 				},
 				"factors": {
+					"panetitle": "Marsh Vulnerability Index",
 					"display": false,
 					"controls": {
 						"show": {
@@ -262,6 +235,11 @@
 				}
 			},
 			"table": {
+				"parent": {
+					"node":"recommendations",
+					"title": "Details of Living Shoreline Suitability",
+					"height": "375px"
+				},
 				"header": {
 					"td": [
 						{ "name":"Factor", "width":"70%", "css":"label" },
@@ -284,8 +262,7 @@
 				"footer": {
 					"colspan":2,
 					"label_field": "LSEM"
-				},
-				"parent_height": "365px"
+				}
 			},
 			"tooltips": {
 				"region": {
