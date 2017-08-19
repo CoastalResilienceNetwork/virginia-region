@@ -23,27 +23,6 @@
 				"0": { "label": { "rep_we":"> 700 J/m", "bwe":"<100 m Rec <br><200 m Comm", "dist":"> 100 m"} }
 			},
 			"radio": {
-				"rep_we": {
-					"group": "factors",
-					"name": "rep_we",
-					"value": "rep_we",
-					"label": "Wind Wave Energy (WWE)",
-					"checked": true
-				},
-				"bwe": {
-					"group": "factors",
-					"name": "bwe",
-					"value": "bwe",
-					"label": "Boat Wake Energy: Distance (m) from Channels",
-					"checked": false
-				},
-				"dist": {
-					"group": "factors",
-					"name": "dist",
-					"value": "dist",
-					"label": "Distance (m) to Natural Marsh Shoreline",
-					"checked": false
-				}
 			},
 			"togglebutton": {
 				"vulnerability": {
@@ -162,19 +141,12 @@
 			}
 		},
 		"other": {
-			"check": {
-				"projects": { "name":"projects", "value":"projects", "label":"Existing Projects", "checked": false },
-				"marsh": { "name":"marsh", "value":"marsh", "label":"Natural Marsh", "checked": false },
-				"recreational": { "name":"recreational", "value":"recreational", "label":"Recreational Channel", "checked": false },
-				"commercial": { "name":"commercial", "value":"commercial", "label":"Commercial Channel", "checked": false },
-				"rel_we": { "name":"rel_we", "value":"rel_we", "label":"Relative Wave Energy", "checked": false }
-			}
 		}
 	},
 	"region": {
 		"Virginia": {
 			"layers": {
-				"main": { "type": "dynamic", "url":"http://dev.services.coastalresilience.org/arcgis/rest/services/Virginia/Living_Shoreline_Explorer/MapServer", "visibleIds": [1], "scaleRangeIds": { "small":[1], "large":[0] }  },
+				"main": { "type": "dynamic", "url":"http://dev.services.coastalresilience.org/arcgis/rest/services/Virginia/Living_Shoreline_Explorer/MapServer", "scaleRangeIds": { "small":[1], "large":[0] }  },
 				"feature": { "type": "feature", "url":"http://dev.services.coastalresilience.org/arcgis/rest/services/Virginia/Living_Shoreline_Explorer/MapServer/0" }
 			},
 			"definitionExpression": {
@@ -208,9 +180,10 @@
 			"interface": {
 				"description": {
 					"show":true,
-					"label":"Suitability for nature-based shoreline enhancement techniques is determined using living shoreline engineering guidelines."
+					"label":"Suitability for nature-based shoreline enhancement techniques is determined using living shoreline engineering guidelines. This app serves as a screening tool and does not replace a site visit/assessment."
 				},
 				"factors": {
+					"panetitle": "Marsh Vulnerability Index",
 					"display": false,
 					"controls": {
 						"show": {
@@ -235,6 +208,10 @@
 							"check": ["projects","marsh","recreational","commercial","rel_we"]
 						}
 					}
+				},
+				"infoGraphic": {
+					"popup": false,
+					"url":"http://media.coastalresilience.org/VA/LivingShorelineExplorerApp_FactSheet.pdf "
 				}
 			},
 			"colors": { 
@@ -262,30 +239,37 @@
 				}
 			},
 			"table": {
-				"header": {
-					"td": [
-						{ "name":"Factor", "width":"70%", "css":"label" },
-						{ "name":"Score", "width":"30%", "css":"score" }
-					]
+				"node":"recommendations",
+				"title": "Details of Living Shoreline Suitability",
+				"height": "450px",
+				"summary": {
+					"place": "before",
+					"category": {
+						"habitat": { "label":"Suitability:", "label_field": "LSEM", "layer": "habitat", "colspan": { "category":15, "label":5 } },
+						"factors": { "label":"Overall Vulnerability:", "label_field":"MVI", "layer": "factors", "colspan": { "category":8, "label":12 } }
+					}
 				},
-				"rows": {
-					"tr": [
-						{ "id":"wave", "label":"Wave Exposure", "field":"MVI_wave" },
-						{ "id":"storm", "label":"Storm Surge", "field":"MVI_surge" },
-						{ "id":"slr", "label":"Sea Level Rise", "field":"MVI_rSLR" },
-						{ "id":"boat", "label":"Boat Activity", "field":"MVI_boat" },
-						{ "id":"marsh_width", "label":"Marsh Buffer Width", "field":"MVI_veg_bu" },
-						{ "id":"marsh_veg", "label":"Marsh Vegetation Height", "field":"MVI_veg_ht" },
-						{ "id":"marsh_elev", "label":"Marsh Elevation", "field":"MVI_elev" },
-						{ "id":"marsh_slope", "label":"Marsh Slope", "field":"MVI_slope" },
-						{ "id":"mvi", "label":"Overall Vulnerability", "field":"MVI" }
-					]
-				},
-				"footer": {
-					"colspan":2,
-					"label_field": "LSEM"
-				},
-				"parent_height": "365px"
+				"factors": {
+					"header": {
+						"title": "Vulnerability to Individual Factors",
+						"td": [
+							{ "name":"Factor", "width":"70%", "css":"label" },
+							{ "name":"Score", "width":"30%", "css":"score" }
+						]
+					},
+					"rows": {
+						"tr": [
+							{ "id":"wave", "label":"Wave Exposure", "field":"MVI_wave" },
+							{ "id":"storm", "label":"Storm Surge", "field":"MVI_surge" },
+							{ "id":"slr", "label":"Sea Level Rise", "field":"MVI_rSLR" },
+							{ "id":"boat", "label":"Boat Activity", "field":"MVI_boat" },
+							{ "id":"marsh_width", "label":"Marsh Buffer Width", "field":"MVI_veg_bu" },
+							{ "id":"marsh_veg", "label":"Marsh Vegetation Height", "field":"MVI_veg_ht" },
+							{ "id":"marsh_elev", "label":"Marsh Elevation", "field":"MVI_elev" },
+							{ "id":"marsh_slope", "label":"Marsh Slope", "field":"MVI_slope" }
+						]
+					}
+				}
 			},
 			"tooltips": {
 				"region": {
