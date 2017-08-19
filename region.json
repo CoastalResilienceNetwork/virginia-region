@@ -39,6 +39,7 @@
     "pluginOrder": [
 		"regional-planning",
         "flood-slr",
+        "living-shorelines-explorer",
 		"future_habitat",
         "zoom_to",
         "measure",
