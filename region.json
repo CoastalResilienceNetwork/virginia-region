@@ -164,6 +164,11 @@
                     "logoPath": "img/WPC.png",
                     "link": "http://warrenpinnacle.com/",
                     "title": "Warren Pinnacle Consulting"
+                },
+                {
+                    "logoPath": "img/DOI.png",
+                    "link": "http://doi.gov/",
+                    "title": "U.S. Department of Interior"
             }
         ]
     }
