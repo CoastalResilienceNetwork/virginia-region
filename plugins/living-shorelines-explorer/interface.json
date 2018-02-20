@@ -151,7 +151,7 @@
 			},
 			"definitionExpression": {
 				"habitat": {
-					"dynamicId": 0,
+					"dynamicId": [0,1],
 					"field": "LSEM",
 					"values": {
 						"marsh": "Marsh Enhancement",
