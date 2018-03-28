@@ -180,7 +180,7 @@
 			"interface": {
 				"description": {
 					"show":true,
-					"label":"<div style='text-align:center; font-weight:bold; margin-bottom:10px;'>BETA VERSION - Data are still being validated</div>Suitability for nature-based shoreline enhancement techniques is determined using living shoreline engineering guidelines. This app serves as a screening tool and does not replace a site visit/assessment."
+					"label":"Suitability for nature-based shoreline enhancement techniques is determined using living shoreline engineering guidelines. This app serves as a screening tool and does not replace a site visit/assessment."
 				},
 				"factors": {
 					"panetitle": "Marsh Vulnerability Index",
