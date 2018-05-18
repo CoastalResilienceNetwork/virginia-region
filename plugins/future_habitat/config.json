@@ -42,7 +42,7 @@
 				{"name":"High", "value":"High"},
 				{"name":"Extreme", "value":"Extreme"}
 			],
-			"help": "<img src='methods/SLR_simple_graphic.png' />"
+			"help": "<img src='plugins/future_habitat/images/SLR_simple_graphic.png' />"
 		}
 		],
 	"change": true,
