@@ -11,7 +11,7 @@
 {
 	"name": "Virginia",
 	"extent": {"xmin":-8465602.932746146,"ymin":4449501.475418198,"xmax":-8374309.236746146,"ymax":4584527.875418197,"spatialReference":{"wkid":102100,"latestWkid":3857}},
-    "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Virginia/Future_Habitat_2018/ImageServer",
+    "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Virginia/Future_Habitat/ImageServer",
 	"cellsize": 7,
 	"root": "",
 	"field": "Name",
