@@ -18,11 +18,11 @@
 	},
 	"region": {
 		"Virginia Eastern Shore": {
-			"url": "http://services.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://services.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
-				"storm_surge": "http://services.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
-				"model_storm": "http://services.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
+				"storm_surge": "https://services2.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
+				"model_storm": "https://services2.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer"
 			},
 			"extent": {
 				"xmin": -8465603.278145544,
@@ -203,7 +203,7 @@
 					"storm_surge": "https://tnc.app.box.com/s/fiya9hirlr28a96b0rwfmdzpb55hcx1i",
 					"default": ""
 				},
-				"data":"http://data.coastalresilience.org/Virginia/VA_FloodSLR_gdb.zip"
+				"data":"https://data.coastalresilience.org/Virginia/VA_FloodSLR_gdb.zip"
 			}
 		}
 	}

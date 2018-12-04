@@ -146,8 +146,8 @@
 	"region": {
 		"Virginia": {
 			"layers": {
-				"main": { "type": "dynamic", "url":"http://services.coastalresilience.org/arcgis/rest/services/Virginia/Living_Shoreline_Explorer/MapServer", "scaleRangeIds": { "small":[1], "large":[0] }  },
-				"feature": { "type": "feature", "url":"http://services.coastalresilience.org/arcgis/rest/services/Virginia/Living_Shoreline_Explorer/MapServer/0" }
+				"main": { "type": "dynamic", "url":"https://services2.coastalresilience.org/arcgis/rest/services/Virginia/Living_Shoreline_Explorer/MapServer", "scaleRangeIds": { "small":[1], "large":[0] }  },
+				"feature": { "type": "feature", "url":"https://services2.coastalresilience.org/arcgis/rest/services/Virginia/Living_Shoreline_Explorer/MapServer/0" }
 			},
 			"definitionExpression": {
 				"habitat": {
@@ -211,7 +211,7 @@
 				},
 				"infoGraphic": {
 					"popup": false,
-					"url":"http://media.coastalresilience.org/VA/LivingShorelineExplorerApp_FactSheet.pdf "
+					"url":"https://media.coastalresilience.org/VA/LivingShorelineExplorerApp_FactSheet.pdf "
 				}
 			},
 			"colors": { 
