@@ -4,9 +4,9 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Virginia",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Virginia",
             "name": "Virginia",
-            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportGpUrl": "https://services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
             "reportDbPath": "CR_VA.gdb" 
         },
         "includeLayers": [

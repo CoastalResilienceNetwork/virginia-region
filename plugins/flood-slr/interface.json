@@ -18,11 +18,11 @@
 	},
 	"region": {
 		"Virginia Eastern Shore": {
-			"url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
+			"url": "https://services2.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
 			"layers": {
-				"main": "http://dev.services.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
-				"storm_surge": "http://dev.services.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
-				"model_storm": "http://dev.services.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer"
+				"main": "https://services2.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
+				"storm_surge": "https://services2.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
+				"model_storm": "https://services2.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer"
 			},
 			"extent": {
 				"xmin": -8465603.278145544,
@@ -35,7 +35,7 @@
 				}
 			},
 			"tooltips": {
-				"hazard": "Storm surge and/or basic inundation scenarios to be visualized on the map.",
+				"hazard": "Spatial extent for different coastal hazards that may affect coastal assets.  Impact zones were estimated across multiple planning horizons.",
 				"climate": { 
 					"control":"hazard",
 					"values": {
@@ -203,7 +203,7 @@
 					"storm_surge": "https://tnc.app.box.com/s/fiya9hirlr28a96b0rwfmdzpb55hcx1i",
 					"default": ""
 				},
-				"data":"http://data.coastalresilience.org/Virginia/VA_FloodSLR_gdb.zip"
+				"data":"https://data.coastalresilience.org/Virginia/VA_FloodSLR_gdb.zip"
 			}
 		}
 	}

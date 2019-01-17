@@ -11,11 +11,11 @@
 {
 	"name": "Virginia",
 	"extent": {"xmin":-8465602.932746146,"ymin":4449501.475418198,"xmax":-8374309.236746146,"ymax":4584527.875418197,"spatialReference":{"wkid":102100,"latestWkid":3857}},
-    "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Virginia/Future_Habitat/ImageServer",
+    "url": "https://services2.coastalresilience.org/arcgis/rest/services/Virginia/Future_Habitat/ImageServer",
 	"cellsize": 7,
 	"root": "",
 	"field": "Name",
-	"buttons": [{"url": "http://data.coastalresilience.org/Virginia/VA_Future_Habitat_gdb.zip", "title": "Download Data"},{"url": "http://warrenpinnacle.com/prof/SLAMM/TNC_ESVA/ESVA_SLAMM_2018_Final_Report.pdf", "title": "View Methodology"}],
+	"buttons": [{"url": "https://data.coastalresilience.org/Virginia/VA_Future_Habitat_gdb.zip", "title": "Download Data"},{"url": "http://warrenpinnacle.com/prof/SLAMM/TNC_ESVA/ESVA_SLAMM_2018_Final_Report.pdf", "title": "View Methodology"}],
 	"additionalText": "<br><br><b>Note: this app has been updated based on sea-level rise scenarios from the 2017 National Climate Assessment</b>.<br><br>Barrier islands were modeled separately; see the Coastline Change app for more information.",
 	"initialCondition": "Current_Condition",
 	"delimiter": "_",
