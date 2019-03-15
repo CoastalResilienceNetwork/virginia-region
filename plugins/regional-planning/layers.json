@@ -5,9 +5,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "https://services2.coastalresilience.org/arcgis/rest/services/Virginia",
-            "name": "Virginia",
-            "reportGpUrl": "https://services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
-            "reportDbPath": "CR_VA.gdb" 
+            "name": "Virginia"
         },
         "includeLayers": [
             {
@@ -26,15 +24,7 @@
         		"includeLayers": [
             		{
                 		"name": "Protected Lands",
-                		"displayName": "Protected Lands",
-                    	"reportDbLayerName": "protected_lands_StatePlane",
-                    	"reports": [
-                    {
-                        "display": "Area Summary",
-                        "units": "sq km",
-                        "field": "Category"
-                    }
-                ]
+                		"displayName": "Protected Lands"
             },
             {
                 "name": "Public Water Access Sites",
@@ -60,15 +50,7 @@
         	"includeLayers": [
             		{
                 		"name": "Tidal Marshes",
-                		"displayName": "Tidal Marshes",
-                    	"reportDbLayerName": "va_tidal_marshes_StatePlane",
-                    	"reports": [
-                    {
-                        "display": "Area Summary",
-                        "units": "sq km",
-                        "field": "definition"
-                    }
-                ]
+                		"displayName": "Tidal Marshes"
             },
             {
                 "name": "Commercial Shellfish Aquaculture Sites",
@@ -90,15 +72,7 @@
         		"includeLayers": [
             		{
                 		"name": "Wetlands",
-                		"displayName": "Wetlands",
-                    	"reportDbLayerName": "NWI_wetlands_StatePlane",
-                    	"reports": [
-                    {
-                        "display": "Area Summary",
-                        "units": "sq km",
-                        "field": "WETLAND_TY"
-                    }
-                ]
+                		"displayName": "Wetlands"
             },
             {
                 "name": "Elevation Points (ft) (Zoom in to view)",
