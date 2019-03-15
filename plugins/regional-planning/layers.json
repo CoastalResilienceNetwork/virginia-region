@@ -5,9 +5,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "https://services2.coastalresilience.org/arcgis/rest/services/Virginia",
-            "name": "Virginia",
-            "reportGpUrl": "https://services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
-            "reportDbPath": "CR_VA.gdb" 
+            "name": "Virginia"
         },
         "includeLayers": [
             {
@@ -23,102 +21,19 @@
 			{
                 "name": "Coastal Management",
 				"description":"Coastal management data such as access sites, flood zones and protected lands.",
-        		"includeLayers": [
-            		{
-                		"name": "Protected Lands",
-                		"displayName": "Protected Lands",
-                    	"reportDbLayerName": "protected_lands_StatePlane",
-                    	"reports": [
-                    {
-                        "display": "Area Summary",
-                        "units": "sq km",
-                        "field": "Category"
-                    }
-                ]
+        		"includeAllLayers": true
             },
-            {
-                "name": "Public Water Access Sites",
-                "displayName": "Public Water Access Sites"
-            },
-            {
-                "name": "303(d) Streams",
-                "displayName": "303(d) Streams"
-            },
-            {
-                "name": "Flood Hazard Areas (2014)",
-                "displayName": "Flood Hazard Areas (2014)"
-            },
-            {
-                "name": "Virginia Ecological Value Assessment Rank",
-                "displayName": "Ecological Value Assessment Rank"
-            }
-        ]
-	},
-	{
+			{
             "name": "Habitats",
 			"description":"Habitat data including aquaculture sites, public oyster grounds, marshes and SAV beds.",
-        	"includeLayers": [
-            		{
-                		"name": "Tidal Marshes",
-                		"displayName": "Tidal Marshes",
-                    	"reportDbLayerName": "va_tidal_marshes_StatePlane",
-                    	"reports": [
-                    {
-                        "display": "Area Summary",
-                        "units": "sq km",
-                        "field": "definition"
-                    }
-                ]
-            },
-            {
-                "name": "Commercial Shellfish Aquaculture Sites",
-                "displayName": "Commercial Shellfish Aquaculture Sites"
-            },
-            {
-                "name": "Baylor Grounds (Public Oyster Grounds)",
-                "displayName": "Baylor Grounds (Public Oyster Grounds)"
-            },
-            {
-                "name": "2014 SAV Beds",
-                "displayName": "2014 SAV Beds"
-            }
-        ]
-	},
-	{
+        	"includeAllLayers": true
+			},
+			{
                 "name": "Physical Features",
 				"description":"Physical features including soils, wetlands, land cover and elevation.",
-        		"includeLayers": [
-            		{
-                		"name": "Wetlands",
-                		"displayName": "Wetlands",
-                    	"reportDbLayerName": "NWI_wetlands_StatePlane",
-                    	"reports": [
-                    {
-                        "display": "Area Summary",
-                        "units": "sq km",
-                        "field": "WETLAND_TY"
-                    }
-                ]
-            },
-            {
-                "name": "Elevation Points (ft) (Zoom in to view)",
-                "displayName": "Elevation Points (ft) - zoom in to view"
-            },
-            {
-                "name": "Soils",
-                "displayName": "Soils"
-            },
-            {
-                "name": "C-CAP Land Cover (2010)",
-                "displayName": "C-CAP Land Cover (2010)"
-            },
-            {
-                "name": "Elevation (ft)",
-                "displayName": "Elevation (ft)"
-            }
-        ]
-	},
-	{
+        		"includeAllLayers": true
+			},
+			{
                 "name": "Social and Economic",
 				"description":"Various population data from the U.S. Census Bureau.",
 				"includeAllLayers": true
