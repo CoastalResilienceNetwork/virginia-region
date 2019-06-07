@@ -18,11 +18,11 @@
 	},
 	"region": {
 		"Virginia Eastern Shore": {
-			"url": "https://services2.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
+			"url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
 			"layers": {
-				"main": "https://services2.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
-				"storm_surge": "https://services2.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
-				"model_storm": "https://services2.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer"
+				"main": "https://dev-services.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
+				"storm_surge": "https://dev-services.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer",
+				"model_storm": "https://dev-services.coastalresilience.org/arcgis/rest/services/Virginia/Flood_SLR/MapServer"
 			},
 			"extent": {
 				"xmin": -8465603.278145544,
@@ -62,7 +62,8 @@
 								"name": "Basic Inundation",
 								"value": "sea_level_rise",
 								"controls": { "slider": ["climate", "scenario"] },
-								"description":"Historical sea level trends are available from NOAA tide stations at <a href='http://tidesandcurrents.noaa.gov/sltrends/sltrends_station.shtml?stnid=8631044' target='_blank'>Wachapreague</a> and <a target='_blank' href='http://tidesandcurrents.noaa.gov/sltrends/sltrends_station.shtml?stnid=8632200'>Kiptopeke</a>."
+								"description":"Historical sea level trends are available from NOAA tide stations at <a href='http://tidesandcurrents.noaa.gov/sltrends/sltrends_station.shtml?stnid=8631044' target='_blank'>Wachapreague</a> and <a target='_blank' href='http://tidesandcurrents.noaa.gov/sltrends/sltrends_station.shtml?stnid=8632200'>Kiptopeke</a>.",
+								"footer":"Note: basic inundation data have been updated based on sea level rise scenarios from the 2017 Climate Assessment."
 							},
 							{
 								"name": "Storm Surge",
@@ -81,7 +82,7 @@
 				"slider": {
 					"climate": { "disabled": false, "show": true,
 						"labels": { 
-							"sea_level_rise": ["2025", "2040", "2065", "2100"],
+							"sea_level_rise": ["2030", "2050", "2075", "2100"],
 							"storm_surge": ["Current", "2040", "2065"]
 						},
 						"dependency": {
@@ -94,7 +95,7 @@
 							}
 						}
 					},
-					"scenario": { "disabled": false, "show": true, "labels": ["Low", "High", "Highest"]  },
+					"scenario": { "disabled": false, "show": true, "labels": ["Interm.<br>Low", "Interm.", "High", "Extreme"]  },
 					"stormSurge": { "disabled": false, "show": true, "labels": ["Nor'Ida", "Low", "Medium", "High"]  }
 				},
 				"radiocheck": {
